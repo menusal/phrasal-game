@@ -1,0 +1,2502 @@
+[
+  {
+    "id": 1,
+    "name": "Add up to",
+    "description": "Alcanzar un total"
+  },
+  {
+    "id": 2,
+    "name": "Add up",
+    "description": "Totalizar"
+  },
+  {
+    "id": 3,
+    "name": "Answer back",
+    "description": "Contestar de malos modos"
+  },
+  {
+    "id": 4,
+    "name": "Answer for",
+    "description": "Responder de"
+  },
+  {
+    "id": 5,
+    "name": "Ask about",
+    "description": "Preguntar por (un asunto)"
+  },
+  {
+    "id": 6,
+    "name": "Ask after",
+    "description": "Preguntar por (la salud)"
+  },
+  {
+    "id": 7,
+    "name": "Ask back",
+    "description": "Invitar a volver"
+  },
+  {
+    "id": 8,
+    "name": "Ask down",
+    "description": "Invitar a bajar"
+  },
+  {
+    "id": 9,
+    "name": "Ask for",
+    "description": "Pedir, preguntar por"
+  },
+  {
+    "id": 10,
+    "name": "Ask in",
+    "description": "Invitar a entrar"
+  },
+  {
+    "id": 11,
+    "name": "Ask out",
+    "description": "Invitar a salir"
+  },
+  {
+    "id": 12,
+    "name": "Ask up to",
+    "description": "Pedir hasta (un precio)"
+  },
+  {
+    "id": 13,
+    "name": "Ask up",
+    "description": "Invitar a subir"
+  },
+  {
+    "id": 14,
+    "name": "Back away",
+    "description": "Retroceder"
+  },
+  {
+    "id": 15,
+    "name": "Back out",
+    "description": "Volver atrás"
+  },
+  {
+    "id": 16,
+    "name": "Back up",
+    "description": "Reforzar"
+  },
+  {
+    "id": 17,
+    "name": "Be about",
+    "description": "Estar por (un lugar - acción)"
+  },
+  {
+    "id": 18,
+    "name": "Be away",
+    "description": "Estar fuera"
+  },
+  {
+    "id": 19,
+    "name": "Be back",
+    "description": "Estar de vuelta"
+  },
+  {
+    "id": 20,
+    "name": "Be for",
+    "description": "Estar a favor de"
+  },
+  {
+    "id": 21,
+    "name": "Be in",
+    "description": "Estar en casa"
+  },
+  {
+    "id": 22,
+    "name": "Be off",
+    "description": "Irse, estar apagado"
+  },
+  {
+    "id": 23,
+    "name": "Be on",
+    "description": "Estar encendido"
+  },
+  {
+    "id": 24,
+    "name": "Be out",
+    "description": "Estar fuera"
+  },
+  {
+    "id": 25,
+    "name": "Be over",
+    "description": "Estar acabado"
+  },
+  {
+    "id": 26,
+    "name": "Be up",
+    "description": "Estar levantado"
+  },
+  {
+    "id": 27,
+    "name": "Bend down",
+    "description": "Agacharse"
+  },
+  {
+    "id": 28,
+    "name": "Bend over",
+    "description": "Inclinarse"
+  },
+  {
+    "id": 29,
+    "name": "Blow away",
+    "description": "Impresionar, hacer"
+  },
+  {
+    "id": 30,
+    "name": "Blow down",
+    "description": "Derrumbarse por el viento"
+  },
+  {
+    "id": 31,
+    "name": "Blow off",
+    "description": "Dejar salir (el vapor)"
+  },
+  {
+    "id": 32,
+    "name": "Blow out",
+    "description": "Apagar (se) (una llama)"
+  },
+  {
+    "id": 33,
+    "name": "Blow up",
+    "description": "Volar (con explosivos)"
+  },
+  {
+    "id": 34,
+    "name": "Break away",
+    "description": "Soltarse"
+  },
+  {
+    "id": 35,
+    "name": "Break down",
+    "description": "Dejar de funcionar, derruir"
+  },
+  {
+    "id": 36,
+    "name": "Break in",
+    "description": "Irrumpir, interrumpir"
+  },
+  {
+    "id": 37,
+    "name": "Break off",
+    "description": "Romper (se) (relaciones)"
+  },
+  {
+    "id": 38,
+    "name": "Break out",
+    "description": "Escapar, estallar (una guerra)"
+  },
+  {
+    "id": 39,
+    "name": "Break up",
+    "description": "Terminar una relación"
+  },
+  {
+    "id": 40,
+    "name": "Bring about",
+    "description": "Acarrear"
+  },
+  {
+    "id": 41,
+    "name": "Bring along",
+    "description": "Traer (consigo)"
+  },
+  {
+    "id": 42,
+    "name": "Bring back",
+    "description": "Devolver"
+  },
+  {
+    "id": 43,
+    "name": "Bring down",
+    "description": "Derribar, rebajar"
+  },
+  {
+    "id": 44,
+    "name": "Bring in",
+    "description": "Hacer entrar"
+  },
+  {
+    "id": 45,
+    "name": "Bring out",
+    "description": "Hacer salir, publicar"
+  },
+  {
+    "id": 46,
+    "name": "Bring up",
+    "description": "Criar, educar"
+  },
+  {
+    "id": 47,
+    "name": "Brush off",
+    "description": "Quitar el polvo"
+  },
+  {
+    "id": 48,
+    "name": "Burn down",
+    "description": "Derrumbarse (por el fuego)"
+  },
+  {
+    "id": 49,
+    "name": "Burn out",
+    "description": "Consumirse (el fuego)"
+  },
+  {
+    "id": 50,
+    "name": "Burn up",
+    "description": "Consumirse (por el fuego)"
+  },
+  {
+    "id": 51,
+    "name": "Buy for",
+    "description": "Comprar por o para"
+  },
+  {
+    "id": 52,
+    "name": "Buy over",
+    "description": "Sobornar"
+  },
+  {
+    "id": 53,
+    "name": "Buy up",
+    "description": "Acaparar"
+  },
+  {
+    "id": 54,
+    "name": "Call at",
+    "description": "Hacer una visita, hacer escala"
+  },
+  {
+    "id": 55,
+    "name": "Call away",
+    "description": "Seguir llamando"
+  },
+  {
+    "id": 56,
+    "name": "Call back",
+    "description": "Devolver una llamada"
+  },
+  {
+    "id": 57,
+    "name": "Call down",
+    "description": "Llamar (a alguien) para que baje"
+  },
+  {
+    "id": 58,
+    "name": "Call for",
+    "description": "Pedir a voces, exigir"
+  },
+  {
+    "id": 59,
+    "name": "Call in",
+    "description": "Llamar (a alguien) para que entre"
+  },
+  {
+    "id": 60,
+    "name": "Call off",
+    "description": "Cancelar"
+  },
+  {
+    "id": 61,
+    "name": "Call on",
+    "description": "Ir a ver (a alguien)"
+  },
+  {
+    "id": 62,
+    "name": "Call out",
+    "description": "Gritar"
+  },
+  {
+    "id": 63,
+    "name": "Call over",
+    "description": "Pasar lista, enumerar"
+  },
+  {
+    "id": 64,
+    "name": "Call up",
+    "description": "Telefonear"
+  },
+  {
+    "id": 65,
+    "name": "Carry along",
+    "description": "Persuadir"
+  },
+  {
+    "id": 66,
+    "name": "Carry off",
+    "description": "Llevarse a la fuerza"
+  },
+  {
+    "id": 67,
+    "name": "Carry on",
+    "description": "Continuar"
+  },
+  {
+    "id": 68,
+    "name": "Carry out",
+    "description": "Llevar a cabo"
+  },
+  {
+    "id": 69,
+    "name": "Clear away",
+    "description": "Dispersar (se)"
+  },
+  {
+    "id": 70,
+    "name": "Clear off",
+    "description": "Limpiar"
+  },
+  {
+    "id": 71,
+    "name": "Clear out",
+    "description": "Marcharse"
+  },
+  {
+    "id": 72,
+    "name": "Clear up",
+    "description": "Aclararse (el tiempo,un misterio)"
+  },
+  {
+    "id": 73,
+    "name": "Close down",
+    "description": "Cerrar"
+  },
+  {
+    "id": 74,
+    "name": "Come after",
+    "description": "Seguir"
+  },
+  {
+    "id": 75,
+    "name": "Come back",
+    "description": "Volver"
+  },
+  {
+    "id": 76,
+    "name": "Come in",
+    "description": "Entrar"
+  },
+  {
+    "id": 77,
+    "name": "Eat away",
+    "description": "Roer, carcomer, corroer, desgastar."
+  },
+  {
+    "id": 78,
+    "name": "Eat into",
+    "description": "Corroer, comerse."
+  },
+  {
+    "id": 79,
+    "name": "Eat out",
+    "description": "Comer fuera, cenar fuera."
+  },
+  {
+    "id": 80,
+    "name": "Eat up",
+    "description": "Comerse, consumir, tragar, devorar."
+  },
+  {
+    "id": 81,
+    "name": "Egg on",
+    "description": "Animar, incitar."
+  },
+  {
+    "id": 82,
+    "name": "End in",
+    "description": "Acabar en, terminar con."
+  },
+  {
+    "id": 83,
+    "name": "End off",
+    "description": "Acabar, terminar, ir a parar"
+  },
+  {
+    "id": 84,
+    "name": "Face up to",
+    "description": "Afrontar, enfrentar, enfrentarse a."
+  },
+  {
+    "id": 85,
+    "name": "Fall about",
+    "description": "Troncharse, partirse (de risa)."
+  },
+  {
+    "id": 86,
+    "name": "Fall apart",
+    "description": "Romperse, deshacerse, caerse a pedazos."
+  },
+  {
+    "id": 87,
+    "name": "Fall away",
+    "description": "Disminuir/desaparecer/desprenderse."
+  },
+  {
+    "id": 88,
+    "name": "Fall back on to",
+    "description": "Recurrir a, echar mano de, apoyarse en."
+  },
+  {
+    "id": 89,
+    "name": "Fall back",
+    "description": "Retroceder, retirarse."
+  },
+  {
+    "id": 90,
+    "name": "Fall behind with",
+    "description": "Atrasarse con"
+  },
+  {
+    "id": 91,
+    "name": "Fall behind",
+    "description": "Retrasarse, quedarse atrás, rezagarse."
+  },
+  {
+    "id": 92,
+    "name": "Fall down",
+    "description": "Caer, caerse/ hundirse, derrumbarse, venirse abajo"
+  },
+  {
+    "id": 93,
+    "name": "Fall in love",
+    "description": "Enamorarse de."
+  },
+  {
+    "id": 94,
+    "name": "Fall in with",
+    "description": "Encontrarse con, juntarse con/convenir en, aprobar"
+  },
+  {
+    "id": 95,
+    "name": "Fall in",
+    "description": "Desplomarse, venirse abajo/ alinearse, formar filas"
+  },
+  {
+    "id": 96,
+    "name": "Fall into",
+    "description": "Dividirse en, clasificarse en/ adquirir."
+  },
+  {
+    "id": 97,
+    "name": "Fall off",
+    "description": "Bajar, disminuir/ empeorar/ desprenderse, caerse."
+  },
+  {
+    "id": 98,
+    "name": "Fall on",
+    "description": "Incidir en, recaer en, tocar a/atacar, caer sobre."
+  },
+  {
+    "id": 99,
+    "name": "Fall out",
+    "description": "Reñir/ pelearse /romper filas/ caerse."
+  },
+  {
+    "id": 100,
+    "name": "Fall over",
+    "description": "Caer, tropezar con/ caerse"
+  },
+  {
+    "id": 101,
+    "name": "Fall through",
+    "description": "Fracasar, quedar en nada."
+  },
+  {
+    "id": 102,
+    "name": "Fall to",
+    "description": "Empezar a, ponerse a/ corresponder a, incumbir a"
+  },
+  {
+    "id": 103,
+    "name": "Fall under",
+    "description": "Clasificarse en, estar incluido,-a en."
+  },
+  {
+    "id": 104,
+    "name": "Feel for",
+    "description": "Compadecer a, compadecerse de."
+  },
+  {
+    "id": 105,
+    "name": "Feel up to",
+    "description": "Sentirse con ánimos para, sentirse con fuerzas para."
+  },
+  {
+    "id": 106,
+    "name": "Figure on",
+    "description": "Contar con, esperar."
+  },
+  {
+    "id": 107,
+    "name": "Figure out",
+    "description": "Comprender, explicarse/ resolver, calcular."
+  },
+  {
+    "id": 108,
+    "name": "Fill in for",
+    "description": "Sustituir a."
+  },
+  {
+    "id": 109,
+    "name": "Fill in",
+    "description": "Rellenar/poner al corriente."
+  },
+  {
+    "id": 110,
+    "name": "Fill out",
+    "description": "Engordar/rellenar."
+  },
+  {
+    "id": 111,
+    "name": "Fill up",
+    "description": "Llenar/ llenarse."
+  },
+  {
+    "id": 112,
+    "name": "Find out",
+    "description": "Preguntar, averiguar/ enterarse de/ calar, pillar"
+  },
+  {
+    "id": 113,
+    "name": "Get about",
+    "description": "Moverse, desplazarse, salir/ viajar/ difundirse."
+  },
+  {
+    "id": 114,
+    "name": "Get across",
+    "description": "Cruzar/ atravesar/ hacer comprender, hacer entende"
+  },
+  {
+    "id": 115,
+    "name": "Get ahead",
+    "description": "Adelantar, progresar."
+  },
+  {
+    "id": 116,
+    "name": "Get along with",
+    "description": "Llevarse (bien) con/ marchar, ir con."
+  },
+  {
+    "id": 117,
+    "name": "Get along",
+    "description": "Arreglárselas, apañárselas/ marcharse, irse."
+  },
+  {
+    "id": 118,
+    "name": "Get around to",
+    "description": "Encontrar tiempo para."
+  },
+  {
+    "id": 119,
+    "name": "Get around",
+    "description": "Moverse, desplazarse/ viajar/ difundirse/ sortear."
+  },
+  {
+    "id": 120,
+    "name": "Get at",
+    "description": "Alcanzar, llegar a/ insinuar/ criticar/ meterse con."
+  },
+  {
+    "id": 121,
+    "name": "Get away with",
+    "description": "Salir impune de."
+  },
+  {
+    "id": 122,
+    "name": "Get away",
+    "description": "Escaparse, irse/ alejar, quitar, sacar."
+  },
+  {
+    "id": 123,
+    "name": "Get back",
+    "description": "Volver, regresar/ moverse hacia atrás, retroceder"
+  },
+  {
+    "id": 124,
+    "name": "Get behind",
+    "description": "Atrasarse."
+  },
+  {
+    "id": 125,
+    "name": "Get by",
+    "description": "Arreglárselas/ pasar."
+  },
+  {
+    "id": 126,
+    "name": "Get down to",
+    "description": "Ponerse a."
+  },
+  {
+    "id": 127,
+    "name": "Get down",
+    "description": "Deprimir, desanimar/bajar/ apuntar, anotar/tragar."
+  },
+  {
+    "id": 128,
+    "name": "Get in",
+    "description": "Llegar/entrar/subir/ser elegido,-a/ meter/recoger."
+  },
+  {
+    "id": 129,
+    "name": "Get into",
+    "description": "Llegar a, entrar en/ subir a."
+  },
+  {
+    "id": 130,
+    "name": "Get off with",
+    "description": "Ligar."
+  },
+  {
+    "id": 131,
+    "name": "Get off",
+    "description": "Quitarse/ bajarse de/ bajarse/ salir/ comenzar."
+  },
+  {
+    "id": 132,
+    "name": "Get on for",
+    "description": "Ser casi."
+  },
+  {
+    "id": 133,
+    "name": "Get on to",
+    "description": "Ponerse en contacto con, localizar/empezar a hablar"
+  },
+  {
+    "id": 134,
+    "name": "Get on",
+    "description": "Subir a, subirse a, montar a/progresar, avanzar, ir."
+  },
+  {
+    "id": 135,
+    "name": "Get out of",
+    "description": "Librarse de/ dejar, perder la costumbre."
+  },
+  {
+    "id": 136,
+    "name": "Get out",
+    "description": "Sacar/quitar/salir/bajar de, bajarse de."
+  },
+  {
+    "id": 137,
+    "name": "Get over with",
+    "description": "Acabar con."
+  },
+  {
+    "id": 138,
+    "name": "Get over",
+    "description": "Recuperarse de/ sobreponerse a."
+  },
+  {
+    "id": 139,
+    "name": "Get round to",
+    "description": "Encontrar tiempo para."
+  },
+  {
+    "id": 140,
+    "name": "Get round",
+    "description": "Salvar/ evitar, soslayar/ convencer, persuadir."
+  },
+  {
+    "id": 141,
+    "name": "Get through",
+    "description": "Llegar/ conseguir hablar."
+  },
+  {
+    "id": 142,
+    "name": "Get to",
+    "description": "Alcanzar"
+  },
+  {
+    "id": 143,
+    "name": "Get together",
+    "description": "Reunirse, juntarse/juntar, reunir/ montar/ reunir."
+  },
+  {
+    "id": 144,
+    "name": "Get up to",
+    "description": "Hacer/ llegar a"
+  },
+  {
+    "id": 145,
+    "name": "Get up",
+    "description": "Levantarse/ subir/ levantarse/despertar/ disfrazarse."
+  },
+  {
+    "id": 146,
+    "name": "Give away",
+    "description": "Distribuir, repartir/regular/entregar/delatar, traicionar."
+  },
+  {
+    "id": 147,
+    "name": "Give back",
+    "description": "Devolver."
+  },
+  {
+    "id": 148,
+    "name": "Give in to",
+    "description": "Ceder ante."
+  },
+  {
+    "id": 149,
+    "name": "Give in",
+    "description": "Darse por vencido,-a, rendirse/ceder/entregar."
+  },
+  {
+    "id": 150,
+    "name": "Give off",
+    "description": "Despedir, desprender, emitir."
+  },
+  {
+    "id": 151,
+    "name": "Give onto",
+    "description": "Dar a."
+  },
+  {
+    "id": 152,
+    "name": "Give out",
+    "description": "Distribuir, repartir/ anunciar/ acabarse, agotarse."
+  },
+  {
+    "id": 153,
+    "name": "Give over",
+    "description": "Entregar/ dedicar, asignar/ dejar de."
+  },
+  {
+    "id": 154,
+    "name": "Give up on",
+    "description": "Abandonar, desistir."
+  },
+  {
+    "id": 155,
+    "name": "Give up",
+    "description": "Dejar/ abandonar, renunciar a /ceder, renunciar."
+  },
+  {
+    "id": 156,
+    "name": "Go about",
+    "description": "Emprender, hacer/ continuar."
+  },
+  {
+    "id": 157,
+    "name": "Go after",
+    "description": "Perseguir, andar tras."
+  },
+  {
+    "id": 158,
+    "name": "Go against",
+    "description": "Ir en contra de/ser desfavorable a."
+  },
+  {
+    "id": 159,
+    "name": "Go ahead with",
+    "description": "Proceder."
+  },
+  {
+    "id": 160,
+    "name": "Go ahead",
+    "description": "¡Adelante!"
+  },
+  {
+    "id": 161,
+    "name": "Go along with",
+    "description": "Estar de acuerdo con."
+  },
+  {
+    "id": 162,
+    "name": "Go along",
+    "description": "Pasar por/ progresar, ir/ ir."
+  },
+  {
+    "id": 163,
+    "name": "Go around",
+    "description": "Bastar, ser suficiente, haber/ correr, circular/ ir, andar."
+  },
+  {
+    "id": 164,
+    "name": "Go away",
+    "description": "Marcharse."
+  },
+  {
+    "id": 165,
+    "name": "Go back on",
+    "description": "Romper, no cumplir."
+  },
+  {
+    "id": 166,
+    "name": "Go back",
+    "description": "Volver, regresar/datar de/ remontarse a."
+  },
+  {
+    "id": 167,
+    "name": "Go by",
+    "description": "Pasar/ atenerse a, seguir/dejarse llevar por/juzgar."
+  },
+  {
+    "id": 168,
+    "name": "Go down with",
+    "description": "Coger, pillar."
+  },
+  {
+    "id": 169,
+    "name": "Go down",
+    "description": "Bajar/ deshincharse/ ponerse/ hundirse/ ser acogido."
+  },
+  {
+    "id": 170,
+    "name": "Go for",
+    "description": "Atacar/ ir a buscar/ gustar/ valer para."
+  },
+  {
+    "id": 171,
+    "name": "Go in for",
+    "description": "Participar en, tomar parte en/ presentarse a/ dedicarse a."
+  },
+  {
+    "id": 172,
+    "name": "Go in",
+    "description": "Entrar."
+  },
+  {
+    "id": 173,
+    "name": "Go into",
+    "description": "Entrar en/ investigar/ chocar contra."
+  },
+  {
+    "id": 174,
+    "name": "Go off with",
+    "description": "Escaparse con."
+  },
+  {
+    "id": 175,
+    "name": "Go off",
+    "description": "Marcharse"
+  },
+  {
+    "id": 176,
+    "name": "Go on",
+    "description": "Seguir, continuar/ pasar, ocurrir."
+  },
+  {
+    "id": 177,
+    "name": "Go out",
+    "description": "Salir/ apagarse."
+  },
+  {
+    "id": 178,
+    "name": "Go over to",
+    "description": "Pasarse a/ cambiar a, pasar a."
+  },
+  {
+    "id": 179,
+    "name": "Go over",
+    "description": "Revisar, repasar."
+  },
+  {
+    "id": 180,
+    "name": "Go round",
+    "description": "Dar vueltas, girar/ pasar por casa de, visitar."
+  },
+  {
+    "id": 181,
+    "name": "Go through with",
+    "description": "Llevar a cabo."
+  },
+  {
+    "id": 182,
+    "name": "Go through",
+    "description": "Pasar por, sufrir, padecer/ examinar."
+  },
+  {
+    "id": 183,
+    "name": "Go towards",
+    "description": "Destinar a, reservar para."
+  },
+  {
+    "id": 184,
+    "name": "Go under",
+    "description": "Hundirse/ fracasar."
+  },
+  {
+    "id": 185,
+    "name": "Go up",
+    "description": "Subir/ acercarse/ levantarse/ estallar."
+  },
+  {
+    "id": 186,
+    "name": "Go with",
+    "description": "Acompañar/ ir con, estar incluido/ hacer juego con."
+  },
+  {
+    "id": 187,
+    "name": "Go without",
+    "description": "Pasar sin, prescindir de."
+  },
+  {
+    "id": 188,
+    "name": "Grow apart",
+    "description": "Distanciarse."
+  },
+  {
+    "id": 189,
+    "name": "Grow away from",
+    "description": "Ir sin contacto con"
+  },
+  {
+    "id": 190,
+    "name": "Grow into",
+    "description": "Convertirse en, hacerse."
+  },
+  {
+    "id": 191,
+    "name": "Grow on",
+    "description": "Llegar a gustar."
+  },
+  {
+    "id": 192,
+    "name": "Grow out of",
+    "description": "Perder, quitarse/ quedarle pequeño,-a a."
+  },
+  {
+    "id": 193,
+    "name": "Grow up",
+    "description": "Hacerse mayor/ criarse, crecer/ surgir, desarrollarse."
+  },
+  {
+    "id": 194,
+    "name": "Hand around",
+    "description": "Repartir, ofrecer, pasar."
+  },
+  {
+    "id": 195,
+    "name": "Hand back",
+    "description": "Devolver."
+  },
+  {
+    "id": 196,
+    "name": "Hand down",
+    "description": "Transmitir/ pasar/ dejar en herencia."
+  },
+  {
+    "id": 197,
+    "name": "Hand in",
+    "description": "Entregar/ presentar, notificar."
+  },
+  {
+    "id": 198,
+    "name": "Hand on",
+    "description": "Transmitir, heredar: (give) pasar, dar."
+  },
+  {
+    "id": 199,
+    "name": "Hand out",
+    "description": "Repartir, distribuir/ dar/ aplicar."
+  },
+  {
+    "id": 200,
+    "name": "Hand over",
+    "description": "Entregar/ ceder."
+  },
+  {
+    "id": 201,
+    "name": "Hang about / hang around",
+    "description": "Esperar/ perder el tiempo/ frecuentar."
+  },
+  {
+    "id": 202,
+    "name": "Hang back",
+    "description": "Quedarse atrás/ vacilar."
+  },
+  {
+    "id": 203,
+    "name": "Hang down",
+    "description": "Colgar, caer."
+  },
+  {
+    "id": 204,
+    "name": "Hang on",
+    "description": "Agarrarse/ esperar."
+  },
+  {
+    "id": 205,
+    "name": "Hang out",
+    "description": "Tender/ soler estar."
+  },
+  {
+    "id": 206,
+    "name": "Hang up",
+    "description": "Colgar."
+  },
+  {
+    "id": 207,
+    "name": "Have on",
+    "description": "Llevar puesto,-a/ tomar el pelo a."
+  },
+  {
+    "id": 208,
+    "name": "Have out",
+    "description": "Sacarse/ operarse de."
+  },
+  {
+    "id": 209,
+    "name": "Hold back",
+    "description": "Retener/ ocultar/ contener/ reprimir."
+  },
+  {
+    "id": 210,
+    "name": "Hold down",
+    "description": "Sujetar - oprimir."
+  },
+  {
+    "id": 211,
+    "name": "Hold forth",
+    "description": "Hablar largo y tendido (on/about, sobre)."
+  },
+  {
+    "id": 212,
+    "name": "Hold off",
+    "description": "Mantener alejado,-a/ refrenarse."
+  },
+  {
+    "id": 213,
+    "name": "Hold on",
+    "description": "Agarrarse fuerte, agarrarse bien/ esperar/ no colgar."
+  },
+  {
+    "id": 214,
+    "name": "Hold on to",
+    "description": "Cogerse a, agarrarse a/ guardar."
+  },
+  {
+    "id": 215,
+    "name": "Hold out",
+    "description": "Tender, ofrecer/ durar/ resistir."
+  },
+  {
+    "id": 216,
+    "name": "Hold over",
+    "description": "Aplazar."
+  },
+  {
+    "id": 217,
+    "name": "Hold up",
+    "description": "Sostener - Soportar"
+  },
+  {
+    "id": 218,
+    "name": "Hold with",
+    "description": "Estar de acuerdo con."
+  },
+  {
+    "id": 219,
+    "name": "Iron out",
+    "description": "Allanar - Nivelar"
+  },
+  {
+    "id": 220,
+    "name": "Jack in",
+    "description": "Dejar - abandonar"
+  },
+  {
+    "id": 221,
+    "name": "Jack up",
+    "description": "Levantar con gato/ subir."
+  },
+  {
+    "id": 222,
+    "name": "Jump at",
+    "description": "Aceptar sin pensarlo."
+  },
+  {
+    "id": 223,
+    "name": "Keep at",
+    "description": "Perseverar en algo/ no dejar en paz, machacar."
+  },
+  {
+    "id": 224,
+    "name": "Keep away",
+    "description": "Mantener a distancia"
+  },
+  {
+    "id": 225,
+    "name": "Keep back",
+    "description": "Retener, guardar/ no revelar/ estorbar, contener."
+  },
+  {
+    "id": 226,
+    "name": "Keep down",
+    "description": "Oprimir, sujetar/ mantener bajo/ limitar, controlar."
+  },
+  {
+    "id": 227,
+    "name": "Keep from",
+    "description": "Abstenerse de, guardarse de."
+  },
+  {
+    "id": 228,
+    "name": "Keep in",
+    "description": "No dejar salir/ hacer quedar/ contener/ pagar."
+  },
+  {
+    "id": 229,
+    "name": "Keep in with",
+    "description": "Mantener buenas relaciones con."
+  },
+  {
+    "id": 230,
+    "name": "Keep off",
+    "description": "Mantenerse a distancia/no tocar, no hablar de."
+  },
+  {
+    "id": 231,
+    "name": "Keep on",
+    "description": "Seguir, continuar/ no quitarse."
+  },
+  {
+    "id": 232,
+    "name": "Keep on about",
+    "description": "Insistir en, no parar de hablar de."
+  },
+  {
+    "id": 233,
+    "name": "Keep out",
+    "description": "No dejar entrar, no dejar pasar/ no entrar."
+  },
+  {
+    "id": 234,
+    "name": "Keep out of",
+    "description": "No entrar en/ no meterse en."
+  },
+  {
+    "id": 235,
+    "name": "Keep to",
+    "description": "Atenerse a, cumplir/ no dejar, no salir de."
+  },
+  {
+    "id": 236,
+    "name": "Keep together",
+    "description": "Mantenerse juntos,-as, no separarse."
+  },
+  {
+    "id": 237,
+    "name": "Keep under",
+    "description": "Mantener bajo"
+  },
+  {
+    "id": 238,
+    "name": "Keep up",
+    "description": "Mantener, seguir/ mantener despierto/ mantenerse al día."
+  },
+  {
+    "id": 239,
+    "name": "Keep up with",
+    "description": "Seguir/ mantenerse al corriente de/ mantener el contacto"
+  },
+  {
+    "id": 240,
+    "name": "Kick against something",
+    "description": "Protestar contra, reaccionar contra."
+  },
+  {
+    "id": 241,
+    "name": "Kick around",
+    "description": "Andar por ahí/ dar vueltas a."
+  },
+  {
+    "id": 242,
+    "name": "Kick in",
+    "description": "Romper a patadas."
+  },
+  {
+    "id": 243,
+    "name": "Kick off",
+    "description": "Sacar, hacer el saque inicial/ empezar, comenzar."
+  },
+  {
+    "id": 244,
+    "name": "Kick out",
+    "description": "Echar - Expulsar"
+  },
+  {
+    "id": 245,
+    "name": "Knock about",
+    "description": "Rodar, recorrer/ andar con/ pegar, maltratar"
+  },
+  {
+    "id": 246,
+    "name": "Knock back",
+    "description": "Beberse"
+  },
+  {
+    "id": 247,
+    "name": "Knock down",
+    "description": "Derribar/ atropellar/ derribar/ rebajar/ adjudicar."
+  },
+  {
+    "id": 248,
+    "name": "Knock off",
+    "description": "Tirar, hacer caer/ birlar/liquidar/ descontar/ quitar."
+  },
+  {
+    "id": 249,
+    "name": "Knock out",
+    "description": "Dejar sin conocimiento/ poner fuera de combate"
+  },
+  {
+    "id": 250,
+    "name": "Knock over",
+    "description": "Volcar, tirar/ atropellar."
+  },
+  {
+    "id": 251,
+    "name": "Knock together",
+    "description": "Hacer de prisa, hacer rápidamente/ entrechocarse."
+  },
+  {
+    "id": 252,
+    "name": "Knock up",
+    "description": "Llamar - Despertar"
+  },
+  {
+    "id": 253,
+    "name": "Lay about",
+    "description": "Agredir."
+  },
+  {
+    "id": 254,
+    "name": "Lay aside",
+    "description": "Dejar a un lado/ dejar de lado."
+  },
+  {
+    "id": 255,
+    "name": "Lay before",
+    "description": "Presentar."
+  },
+  {
+    "id": 256,
+    "name": "Lay by",
+    "description": "Guardar - poner aparte."
+  },
+  {
+    "id": 257,
+    "name": "Lay down",
+    "description": "Dejar, soltar/ entregar/ imponer, fijar/ sentar."
+  },
+  {
+    "id": 258,
+    "name": "Lay in",
+    "description": "Proveerse de."
+  },
+  {
+    "id": 259,
+    "name": "Lay into",
+    "description": "Atacar."
+  },
+  {
+    "id": 260,
+    "name": "Lay off",
+    "description": "Despedir/ dejar en paz, dejar de molestar/ parar."
+  },
+  {
+    "id": 261,
+    "name": "Lay on",
+    "description": "Facilitar, suministrar/ cargar."
+  },
+  {
+    "id": 262,
+    "name": "Lay out",
+    "description": "Tender, extender/ disponer, colocar/exponer."
+  },
+  {
+    "id": 263,
+    "name": "Lay over",
+    "description": "Hacer una parada."
+  },
+  {
+    "id": 264,
+    "name": "Lay up",
+    "description": "Almacenar."
+  },
+  {
+    "id": 265,
+    "name": "Leave off",
+    "description": "Dejar de/ acabar, terminar."
+  },
+  {
+    "id": 266,
+    "name": "Leave out",
+    "description": "Omitir, excluir/ excluir."
+  },
+  {
+    "id": 267,
+    "name": "Let down",
+    "description": "Bajar/ alargar/ desinflar/ fallar, defraudar."
+  },
+  {
+    "id": 268,
+    "name": "Let in",
+    "description": "Dejar entrar."
+  },
+  {
+    "id": 269,
+    "name": "Let into",
+    "description": "Abandonar"
+  },
+  {
+    "id": 270,
+    "name": "Let off",
+    "description": "Dejar salir - Dejar escapar"
+  },
+  {
+    "id": 271,
+    "name": "Let on",
+    "description": "Decir, descubrir/ hacer ver."
+  },
+  {
+    "id": 272,
+    "name": "Let out",
+    "description": "Dejar salir/ soltar (from, de)/ alquilar."
+  },
+  {
+    "id": 273,
+    "name": "Let through",
+    "description": "Dejar pasar."
+  },
+  {
+    "id": 274,
+    "name": "Let up on",
+    "description": "Dejar en paz."
+  },
+  {
+    "id": 275,
+    "name": "Let up",
+    "description": "Parar."
+  },
+  {
+    "id": 276,
+    "name": "Look after",
+    "description": "Ocuparse de, atender a/ cuidar (de)."
+  },
+  {
+    "id": 277,
+    "name": "Look ahead",
+    "description": "Mirar hacia adelante."
+  },
+  {
+    "id": 278,
+    "name": "Look at",
+    "description": "Mirar, considerar/ mirar."
+  },
+  {
+    "id": 279,
+    "name": "Look back",
+    "description": "Mirar atrás."
+  },
+  {
+    "id": 280,
+    "name": "Look down on",
+    "description": "Despreciar."
+  },
+  {
+    "id": 281,
+    "name": "Look for",
+    "description": "Buscar."
+  },
+  {
+    "id": 282,
+    "name": "Look forward to",
+    "description": "Esperar (con ansia)."
+  },
+  {
+    "id": 283,
+    "name": "Look in on",
+    "description": "Pasar (un momento) por."
+  },
+  {
+    "id": 284,
+    "name": "Look into",
+    "description": "Investigar."
+  },
+  {
+    "id": 285,
+    "name": "Look like",
+    "description": "Parecerse a."
+  },
+  {
+    "id": 286,
+    "name": "Look on",
+    "description": "Considerer/observar."
+  },
+  {
+    "id": 287,
+    "name": "Look onto",
+    "description": "Dar a."
+  },
+  {
+    "id": 288,
+    "name": "Look out",
+    "description": "Tener cuidado"
+  },
+  {
+    "id": 289,
+    "name": "Look out for",
+    "description": "Esperar, estar al tanto, tener cuidado"
+  },
+  {
+    "id": 290,
+    "name": "Look over",
+    "description": "Mirar por encima."
+  },
+  {
+    "id": 291,
+    "name": "Look round",
+    "description": "Volver la cabeza/ mirar/ mirar/ visitar."
+  },
+  {
+    "id": 292,
+    "name": "Look through",
+    "description": "Revisar/ ojear."
+  },
+  {
+    "id": 293,
+    "name": "Look to",
+    "description": "Contar con/ centrarse en."
+  },
+  {
+    "id": 294,
+    "name": "Look up to",
+    "description": "Respetar."
+  },
+  {
+    "id": 295,
+    "name": "Look up",
+    "description": "Mejorar/ consultar, buscar/ ir a ver."
+  },
+  {
+    "id": 296,
+    "name": "Make after",
+    "description": "Seguir a, perseguir a."
+  },
+  {
+    "id": 297,
+    "name": "Make for",
+    "description": "Dirigirse hacia/ abalanzarse sobre/crear, conducir a."
+  },
+  {
+    "id": 298,
+    "name": "Make into",
+    "description": "Convertir en, transformar en."
+  },
+  {
+    "id": 299,
+    "name": "Make of",
+    "description": "Pensar, opinar, parecer/ entender/ dar importancia a."
+  },
+  {
+    "id": 300,
+    "name": "Make off with / make away with",
+    "description": "Llevarse, escaparse con."
+  },
+  {
+    "id": 301,
+    "name": "Make off",
+    "description": "Escaparse, largarse, huir."
+  },
+  {
+    "id": 302,
+    "name": "Make out",
+    "description": "Hacer/ extender, hacer/comprender/ pretender."
+  },
+  {
+    "id": 303,
+    "name": "Make over",
+    "description": "Ceder, transferir, traspasar/convertir, transformar."
+  },
+  {
+    "id": 304,
+    "name": "Make up",
+    "description": "Inventar/hacer/ montar/confeccionar, hacer/ maquillarse."
+  },
+  {
+    "id": 305,
+    "name": "Make up for",
+    "description": "Compensar."
+  },
+  {
+    "id": 306,
+    "name": "Make up to",
+    "description": "Halagar a/ congraciarse con/ recompensar, pagar."
+  },
+  {
+    "id": 307,
+    "name": "Make with",
+    "description": "Dar, traer."
+  },
+  {
+    "id": 308,
+    "name": "Mark down",
+    "description": "Rebajar el precio de/ bajar la nota de/ apuntar."
+  },
+  {
+    "id": 309,
+    "name": "Mark off",
+    "description": "Separar, dividir, distinguir/ delimiter/ tachar."
+  },
+  {
+    "id": 310,
+    "name": "Mark out",
+    "description": "Marcar, delimiter/ marcar, trazar/ señalar, seleccionar."
+  },
+  {
+    "id": 311,
+    "name": "Mark up",
+    "description": "Subir (el precio de), aumentar (el precio de)/ subir la nota de."
+  },
+  {
+    "id": 312,
+    "name": "Mix up",
+    "description": "Mezclar bien/ preparar/ desordenar,mezclar."
+  },
+  {
+    "id": 313,
+    "name": "Nod off",
+    "description": "Dormirse, dar cabezadas."
+  },
+  {
+    "id": 314,
+    "name": "Pan out",
+    "description": "Salir, resultar."
+  },
+  {
+    "id": 315,
+    "name": "Pass away",
+    "description": "Pasar a mejor vida."
+  },
+  {
+    "id": 316,
+    "name": "Pass by",
+    "description": "Pasar/ pasar de largo."
+  },
+  {
+    "id": 317,
+    "name": "Pass down",
+    "description": "Pasar/ transmitir."
+  },
+  {
+    "id": 318,
+    "name": "Pass for",
+    "description": "Pasar por."
+  },
+  {
+    "id": 319,
+    "name": "Pass off",
+    "description": "Pasar, transcurrir/ parar/ pasarse/ hacer pasar."
+  },
+  {
+    "id": 320,
+    "name": "Pass on",
+    "description": "Pasar, dar/ contagiar/ pasar a mejor vida."
+  },
+  {
+    "id": 321,
+    "name": "Pass out",
+    "description": "Desmayarse, perder el conocimiento/ graduarse/ repartir."
+  },
+  {
+    "id": 322,
+    "name": "Pass over",
+    "description": "Pasar por alto, dejar de lado, olvidar/ atravesar, cruzar."
+  },
+  {
+    "id": 323,
+    "name": "Pass through",
+    "description": "Estar de paso/ pasar por, atravesar."
+  },
+  {
+    "id": 324,
+    "name": "Pass up",
+    "description": "Dejar pasar, dejar escapar, desperdiciar/ rechazar."
+  },
+  {
+    "id": 325,
+    "name": "Pick at",
+    "description": "Tocar/ comer sin ganas."
+  },
+  {
+    "id": 326,
+    "name": "Pick off",
+    "description": "Matar uno a uno."
+  },
+  {
+    "id": 327,
+    "name": "Pick on",
+    "description": "Meterse con/ elegir, escoger."
+  },
+  {
+    "id": 328,
+    "name": "Pick out",
+    "description": "Elegir, escoger/ distinguir/ reconocer/ tocar de oído."
+  },
+  {
+    "id": 329,
+    "name": "Pick up",
+    "description": "Levantar/ recoger/ coger."
+  },
+  {
+    "id": 330,
+    "name": "Pick up on",
+    "description": "Hacer reseña de/ volver a/ señalar."
+  },
+  {
+    "id": 331,
+    "name": "Pitch (up) on",
+    "description": "Elegir, escoger/ encontrar, dar con."
+  },
+  {
+    "id": 332,
+    "name": "Pitch forward",
+    "description": "Caer de bruces, caer de cabeza."
+  },
+  {
+    "id": 333,
+    "name": "Pitch in",
+    "description": "Empezar/empezar a comer/ cooperar/ contribuir."
+  },
+  {
+    "id": 334,
+    "name": "Pitch into",
+    "description": "Emprender enérgicamente algo/ atacar, arremeter contra."
+  },
+  {
+    "id": 335,
+    "name": "Pitch off",
+    "description": "Quitar de encima, sacudir/ caer."
+  },
+  {
+    "id": 336,
+    "name": "Pitch out",
+    "description": "Tirar/ echar, expulsar, poner de patitas en la calle."
+  },
+  {
+    "id": 337,
+    "name": "Pitch over",
+    "description": "Tirar/ volcarse."
+  },
+  {
+    "id": 338,
+    "name": "Pull about",
+    "description": "Manosear, estropear."
+  },
+  {
+    "id": 339,
+    "name": "Pull along",
+    "description": "Arrastrar/arrastrarse."
+  },
+  {
+    "id": 340,
+    "name": "Pull apart",
+    "description": "Romper, partir en dos/ desmontar/ criticar duramente."
+  },
+  {
+    "id": 341,
+    "name": "Pull away",
+    "description": "Arrancar/ quitar arrancando/ apartarse bruscamente de uno."
+  },
+  {
+    "id": 342,
+    "name": "Pull back",
+    "description": "Retirar/ retener, tirar hacia atrás/ tirar hacia sí."
+  },
+  {
+    "id": 343,
+    "name": "Pull down",
+    "description": "Bajar, tirar hacia abajo, rebajar, hacer caer, tumbar."
+  },
+  {
+    "id": 344,
+    "name": "Pull in",
+    "description": "Tirar hacia sí/ recoger/ cobrar."
+  },
+  {
+    "id": 345,
+    "name": "Pull off",
+    "description": "Arrancar, separar/ quitar de un tirón/quitarse de prisa."
+  },
+  {
+    "id": 346,
+    "name": "Pull on",
+    "description": "Ponerse (de prisa)/ tirar de."
+  },
+  {
+    "id": 347,
+    "name": "Pull out",
+    "description": "Sacar, extraer/ tirar hacia fuera."
+  },
+  {
+    "id": 348,
+    "name": "Pull over",
+    "description": "Acercar tirando/ derribar, volcar/ hacerse a un lado."
+  },
+  {
+    "id": 349,
+    "name": "Pull round",
+    "description": "Ayudar a uno a reponerse/ reponerse."
+  },
+  {
+    "id": 350,
+    "name": "Pull through",
+    "description": "Sacar a uno de un apuro o de una enfermedad/ reponerse, recobrar la salud."
+  },
+  {
+    "id": 351,
+    "name": "Pull up",
+    "description": "Alzar, levantar, tirar hacia arriba/ alzar."
+  },
+  {
+    "id": 352,
+    "name": "Put across",
+    "description": "Comunicar/ hacer entender/ hacer aceptar."
+  },
+  {
+    "id": 353,
+    "name": "Put apart",
+    "description": "Separar a alguien de otras personas."
+  },
+  {
+    "id": 354,
+    "name": "Put aside",
+    "description": "Rechazar, desechar, dejar, poner a un lado."
+  },
+  {
+    "id": 355,
+    "name": "Put back",
+    "description": "Devolver a su lugar/ restituir, volver a poner/ guardar."
+  },
+  {
+    "id": 356,
+    "name": "Put by",
+    "description": "Ahorrar, tener dinero ahorrado= (to) put away."
+  },
+  {
+    "id": 357,
+    "name": "Put down",
+    "description": "Poner en tierra/ poner en el suelo/ depositar/ bajar/ soltar."
+  },
+  {
+    "id": 358,
+    "name": "Put forth",
+    "description": "Alargar/ tender/ extender/ echar/ emplear, desplegar."
+  },
+  {
+    "id": 359,
+    "name": "Put forward",
+    "description": "Nombrar, presentar, proponer/ hacer."
+  },
+  {
+    "id": 360,
+    "name": "Put in",
+    "description": "Meter, introducir/ insertar/ interponer/ presentar, aducir."
+  },
+  {
+    "id": 361,
+    "name": "Put off",
+    "description": "Posponer"
+  },
+  {
+    "id": 362,
+    "name": "Put on",
+    "description": "Ganar peso"
+  },
+  {
+    "id": 363,
+    "name": "Put one over on",
+    "description": "Ganar por la mano a alguin, engañar a alguien."
+  },
+  {
+    "id": 364,
+    "name": "Put out",
+    "description": "Sacar, poner fuera, mandar a pasearse, echar, expulsar."
+  },
+  {
+    "id": 365,
+    "name": "Put through",
+    "description": "Cerrar/ despachar/ hacer aprobar/ someter a uno a una prueba."
+  },
+  {
+    "id": 366,
+    "name": "Put together",
+    "description": "Poner juntos, juntar, reunir."
+  },
+  {
+    "id": 367,
+    "name": "Put up",
+    "description": "Alzar, levantar, poner en alto, levantar, abrir, alzar."
+  },
+  {
+    "id": 368,
+    "name": "Put up with",
+    "description": "Aguantar, resignarse a, conformarse con."
+  },
+  {
+    "id": 369,
+    "name": "Put upon",
+    "description": "Molestar a, incomodar a, pedirle mucho a, abusar de la amabilidad de."
+  },
+  {
+    "id": 370,
+    "name": "Ride about, (to) ride around",
+    "description": "Pasearse a caballo, en coche, en bicicleta."
+  },
+  {
+    "id": 371,
+    "name": "Ride away",
+    "description": "Alejarse, irse, partir."
+  },
+  {
+    "id": 372,
+    "name": "Ride back",
+    "description": "Volver a caballo, en bicicleta, etc."
+  },
+  {
+    "id": 373,
+    "name": "Ride on",
+    "description": "Depender de."
+  },
+  {
+    "id": 374,
+    "name": "Ride out",
+    "description": "Aguantar hasta el final de."
+  },
+  {
+    "id": 375,
+    "name": "Rip off",
+    "description": "Arrancar/ timar."
+  },
+  {
+    "id": 376,
+    "name": "Rip up",
+    "description": "Romper, hacer pedazos."
+  },
+  {
+    "id": 377,
+    "name": "Round down",
+    "description": "Redondear (a la baja)."
+  },
+  {
+    "id": 378,
+    "name": "Round off",
+    "description": "Completar, acabar."
+  },
+  {
+    "id": 379,
+    "name": "Round on",
+    "description": "Volverse contra."
+  },
+  {
+    "id": 380,
+    "name": "Round up",
+    "description": "Redondear (al alza)/ acorralar/ reunir, juntar."
+  },
+  {
+    "id": 381,
+    "name": "Run across",
+    "description": "Cruzar corriendo/ encontrar, tropezar con."
+  },
+  {
+    "id": 382,
+    "name": "Run after",
+    "description": "Perseguir."
+  },
+  {
+    "id": 383,
+    "name": "Run along",
+    "description": "Irse."
+  },
+  {
+    "id": 384,
+    "name": "Run away",
+    "description": "Irse corriendo, escaparse."
+  },
+  {
+    "id": 385,
+    "name": "Run away with",
+    "description": "Escaparse con/ no te vayas a creer que/ te dejas llevar por."
+  },
+  {
+    "id": 386,
+    "name": "Run down",
+    "description": "Atropellar/ criticar/ agotar/ bajar corriendo/ agotarse/ pararse."
+  },
+  {
+    "id": 387,
+    "name": "Run in",
+    "description": "Rodar/ detener/ entrar corriendo."
+  },
+  {
+    "id": 388,
+    "name": "Run into",
+    "description": "Entrar corriendo en/ chocar con/ tropezar con."
+  },
+  {
+    "id": 389,
+    "name": "Run off",
+    "description": "Imprimir/ irse corriendo."
+  },
+  {
+    "id": 390,
+    "name": "Run off with",
+    "description": "Escaparse con, llevarse."
+  },
+  {
+    "id": 391,
+    "name": "Run out of",
+    "description": "Quedarse sin (gasolina, agua, sal)"
+  },
+  {
+    "id": 392,
+    "name": "Set about",
+    "description": "Empezar a, ponerse a/ atacar, agredir."
+  },
+  {
+    "id": 393,
+    "name": "Set against",
+    "description": "Enemistar con, poner en contra de/ contraponer, sopesar."
+  },
+  {
+    "id": 394,
+    "name": "Set apart",
+    "description": "Distinguir, hacer diferente."
+  },
+  {
+    "id": 395,
+    "name": "Set aside",
+    "description": "Guardar, ahorrar/ dejar/ reservar/ dejar de lado/ anular."
+  },
+  {
+    "id": 396,
+    "name": "Set back",
+    "description": "Apartar, retirar/ retrasar, atrasar/ costar."
+  },
+  {
+    "id": 397,
+    "name": "Set down",
+    "description": "Poner por escrito, escribir/ dejar/ establecer, fijar."
+  },
+  {
+    "id": 398,
+    "name": "Set forth",
+    "description": "Emprender marcha, partir."
+  },
+  {
+    "id": 399,
+    "name": "Set in",
+    "description": "Empezar, comenzar/ surgir/ declararse."
+  },
+  {
+    "id": 400,
+    "name": "Set off",
+    "description": "Salir, ponerse en camino/ hacer estallar, hacer explotar/ realzar."
+  },
+  {
+    "id": 401,
+    "name": "Set on",
+    "description": "Echar/ atacar, agredir."
+  },
+  {
+    "id": 402,
+    "name": "Set out",
+    "description": "Partir, salir/ proponerse, tener la intención de, querer."
+  },
+  {
+    "id": 403,
+    "name": "Set to",
+    "description": "Ponerse a, empezar a."
+  },
+  {
+    "id": 404,
+    "name": "Set up",
+    "description": "Levantar, erigir/ colocar/ montar/ montar, armar."
+  },
+  {
+    "id": 405,
+    "name": "Show off",
+    "description": "Fardar, fanfarronear, presumir, lucirse/ hacerse el gracioso"
+  },
+  {
+    "id": 406,
+    "name": "Show up",
+    "description": "Hacer resaltar, hacer destacar/ revelar, sacar a la luz."
+  },
+  {
+    "id": 407,
+    "name": "Slip away",
+    "description": "Pasar, irse/ irse."
+  },
+  {
+    "id": 408,
+    "name": "Slip by",
+    "description": "Pasar, transcurrir."
+  },
+  {
+    "id": 409,
+    "name": "Slip into",
+    "description": "Ponerse."
+  },
+  {
+    "id": 410,
+    "name": "Slip off",
+    "description": "Quitarse."
+  },
+  {
+    "id": 411,
+    "name": "Slip on",
+    "description": "Ponerse."
+  },
+  {
+    "id": 412,
+    "name": "Slip out",
+    "description": "Escaparse."
+  },
+  {
+    "id": 413,
+    "name": "Slip out of",
+    "description": "Quitarse."
+  },
+  {
+    "id": 414,
+    "name": "Slip up",
+    "description": "Equivocarse, cometer un error/ cometer un desliz, meter la pata."
+  },
+  {
+    "id": 415,
+    "name": "Stand aside",
+    "description": "Apartarse, quitarse de en medio/ no tomar parte, mantenerse al margen."
+  },
+  {
+    "id": 416,
+    "name": "Stand back",
+    "description": "Apartarse, echarse hacia atrás, alejarse/ distanciarse."
+  },
+  {
+    "id": 417,
+    "name": "Stand by",
+    "description": "Cruzarse de brazos, quedarse sin hacer nada/ estar preparado."
+  },
+  {
+    "id": 418,
+    "name": "Stand down",
+    "description": "Retirarse/ dimitir/ retirarse, abandonar el estrado."
+  },
+  {
+    "id": 419,
+    "name": "Stand for",
+    "description": "Significar, querer decir/ representar/ defender, apoyar."
+  },
+  {
+    "id": 420,
+    "name": "Stand in for",
+    "description": "Sustituir, suplir."
+  },
+  {
+    "id": 421,
+    "name": "Stand out",
+    "description": "Destacar, sobresalir/ destacarse, sobresalir/ oponerse ((against, a))."
+  },
+  {
+    "id": 422,
+    "name": "Stand over",
+    "description": "Vigilar a, velar a."
+  },
+  {
+    "id": 423,
+    "name": "Stand to",
+    "description": "Estar en estado de alerta/ poner en estado de alerta."
+  },
+  {
+    "id": 424,
+    "name": "Stand up",
+    "description": "Ponerse de pie, levantarse/ estar de pie."
+  },
+  {
+    "id": 425,
+    "name": "Stand up for",
+    "description": "Defender/ apoyar."
+  },
+  {
+    "id": 426,
+    "name": "Stand up to",
+    "description": "Hacer frente a, resistir a."
+  },
+  {
+    "id": 427,
+    "name": "Take after",
+    "description": "Parecerse a."
+  },
+  {
+    "id": 428,
+    "name": "Take apart",
+    "description": "Desmontar, deshacer/ echar por tierra."
+  },
+  {
+    "id": 429,
+    "name": "Take aside",
+    "description": "Llevar a un lado."
+  },
+  {
+    "id": 430,
+    "name": "Take away",
+    "description": "Llevarse, quitar/ restar/ llevar."
+  },
+  {
+    "id": 431,
+    "name": "Take back",
+    "description": "Recibir otra vez, aceptar algo devuelto/ readmitir."
+  },
+  {
+    "id": 432,
+    "name": "Take down",
+    "description": "Quitar, bajar/ desmontar/ apuntar/ humillar."
+  },
+  {
+    "id": 433,
+    "name": "Take for",
+    "description": "Tomar por."
+  },
+  {
+    "id": 434,
+    "name": "Take in",
+    "description": "Dar cobijo a, alojar, recoger/ engañar/ asimilar."
+  },
+  {
+    "id": 435,
+    "name": "Take off",
+    "description": "Quitarse/ quitar, sacar/ llevar/ tomarse/ imitar."
+  },
+  {
+    "id": 436,
+    "name": "Take on",
+    "description": "Hacerse cargo de, encargarse de, aceptar/ asumir."
+  },
+  {
+    "id": 437,
+    "name": "Take out",
+    "description": "Sacar, quitar/ invitar a salir/ llevar de paseo."
+  },
+  {
+    "id": 438,
+    "name": "Take out on",
+    "description": "Tomarla con, desquitarse con, descargarse."
+  },
+  {
+    "id": 439,
+    "name": "Take over",
+    "description": "Tomar (posesión de), apoderarse de/ ocupar."
+  },
+  {
+    "id": 440,
+    "name": "Take over from",
+    "description": "Relevar, sustituir."
+  },
+  {
+    "id": 441,
+    "name": "Take to",
+    "description": "Tomar cariño a/ darse a/ empezar a, aficionarse a."
+  },
+  {
+    "id": 442,
+    "name": "Take up on",
+    "description": "Hacer puntualizaciones sobre/ aceptar (una oferta)."
+  },
+  {
+    "id": 443,
+    "name": "Take up with",
+    "description": "Empezar a salir con, entrar en relaciones con/ hablar de."
+  },
+  {
+    "id": 444,
+    "name": "Take up",
+    "description": "Ocupar/ llevar, subir/ quitar, levantar."
+  },
+  {
+    "id": 445,
+    "name": "Take upon",
+    "description": "Encargarse de."
+  },
+  {
+    "id": 446,
+    "name": "Tell against",
+    "description": "Obrar en contra de."
+  },
+  {
+    "id": 447,
+    "name": "Tell apart",
+    "description": "Distinguir."
+  },
+  {
+    "id": 448,
+    "name": "Tell off",
+    "description": "Regañar, reñir/ destacar."
+  },
+  {
+    "id": 449,
+    "name": "Tell on",
+    "description": "Chivarse de."
+  },
+  {
+    "id": 450,
+    "name": "Throw away",
+    "description": "Tirar/ desaprovechar, perder/ malgastar, derrochar/ lanzar al aire."
+  },
+  {
+    "id": 451,
+    "name": "Throw back",
+    "description": "Devolver/ echar atrás."
+  },
+  {
+    "id": 452,
+    "name": "Throw back on",
+    "description": "Obligar a recurrir a."
+  },
+  {
+    "id": 453,
+    "name": "Throw in",
+    "description": "Incluir gratis/ sacar de banda."
+  },
+  {
+    "id": 454,
+    "name": "Throw off",
+    "description": "Deshacerse de, librarse de/ despistar/quitarse."
+  },
+  {
+    "id": 455,
+    "name": "Throw on",
+    "description": "Ponerse."
+  },
+  {
+    "id": 456,
+    "name": "Throw out",
+    "description": "Echar, expulsar/ rechazar/ tirar, tirar a la basura."
+  },
+  {
+    "id": 457,
+    "name": "Throw up",
+    "description": "Vomitar, devolver/ abandonar, renunciar a."
+  },
+  {
+    "id": 458,
+    "name": "Tick away",
+    "description": "Transcurrir."
+  },
+  {
+    "id": 459,
+    "name": "Tick off",
+    "description": "Marcar, señalar/ regañar, reñir/ fastidiar, dar rabia."
+  },
+  {
+    "id": 460,
+    "name": "Tick over",
+    "description": "Marchar al ralentí, estar en marcha/ ir tirando."
+  },
+  {
+    "id": 461,
+    "name": "Try for",
+    "description": "Tratar de obtener."
+  },
+  {
+    "id": 462,
+    "name": "Try on",
+    "description": "Probarse."
+  },
+  {
+    "id": 463,
+    "name": "Try out",
+    "description": "Probar, ensayar."
+  },
+  {
+    "id": 464,
+    "name": "Turn against",
+    "description": "Poner en contra/ ponerse en contra de."
+  },
+  {
+    "id": 465,
+    "name": "Turn around / turn round",
+    "description": "Volverse, darse la vuelta/ volver, darle la vuelta a."
+  },
+  {
+    "id": 466,
+    "name": "Turn away",
+    "description": "No dejar entrar/ volver la cabeza, volver la espalda."
+  },
+  {
+    "id": 467,
+    "name": "Turn back",
+    "description": "Hacer retroceder, hacer volver/ retrasar/ volverse atrás."
+  },
+  {
+    "id": 468,
+    "name": "Turn down",
+    "description": "Rechazar, no aceptar/ denegar/ bajar/ doblar."
+  },
+  {
+    "id": 469,
+    "name": "Turn in",
+    "description": "Entregar a la policía/ acostarse."
+  },
+  {
+    "id": 470,
+    "name": "Turn off",
+    "description": "Desconectar/ apagar/ cerrar/ repugnar, dar asco a."
+  },
+  {
+    "id": 471,
+    "name": "Turn on",
+    "description": "Conectar/ encender/ abrir/ poner en marcha, encender."
+  },
+  {
+    "id": 472,
+    "name": "Turn out",
+    "description": "Apagar, salir a la calle"
+  },
+  {
+    "id": 473,
+    "name": "Turn over",
+    "description": "Dar la vuelta a, volver, poner al revés."
+  },
+  {
+    "id": 474,
+    "name": "Turn to",
+    "description": "Acudir a, recorrer a, recurrir a/ buscar, pasar a."
+  },
+  {
+    "id": 475,
+    "name": "Turn up",
+    "description": "Llegar, presentarse/ aparecer/ doblar hacia arriba, levantar."
+  },
+  {
+    "id": 476,
+    "name": "Wade through",
+    "description": "Pasar mucho tiempo haciendo algo aburrido"
+  },
+  {
+    "id": 477,
+    "name": "Wait about, (to) wait around",
+    "description": "Esperar, perder el tiempo."
+  },
+  {
+    "id": 478,
+    "name": "Wait behind",
+    "description": "Quedarse, quedarse para esperar a uno."
+  },
+  {
+    "id": 479,
+    "name": "Wait on",
+    "description": "Atender"
+  },
+  {
+    "id": 480,
+    "name": "Wait up for",
+    "description": "Quedarse despierto para algo"
+  },
+  {
+    "id": 481,
+    "name": "Wake up",
+    "description": "Despertarse"
+  },
+  {
+    "id": 482,
+    "name": "Walk about",
+    "description": "Pasear"
+  },
+  {
+    "id": 483,
+    "name": "Walk around",
+    "description": "Dar una vuelta, pasearse."
+  },
+  {
+    "id": 484,
+    "name": "Walk away",
+    "description": "Irse, alejarse, negarse a, evadirse de."
+  },
+  {
+    "id": 485,
+    "name": "Walk away with",
+    "description": "Llevarse,robar"
+  },
+  {
+    "id": 486,
+    "name": "Walk back",
+    "description": "Volver a pie, regresar andando."
+  },
+  {
+    "id": 487,
+    "name": "Walk down",
+    "description": "Bajar a pie."
+  },
+  {
+    "id": 488,
+    "name": "Walk into",
+    "description": "Entrar/ caer en una trampa/ ser embaucado."
+  },
+  {
+    "id": 489,
+    "name": "Walk off",
+    "description": "Quitarse un dolor de encima dando un paseo."
+  },
+  {
+    "id": 490,
+    "name": "Walk out",
+    "description": "Salir, retirarse/ declararse en huelga/ marcharse."
+  },
+  {
+    "id": 491,
+    "name": "Walk over",
+    "description": "Atropellar a, tratar a alguien a coces/ ganar."
+  },
+  {
+    "id": 492,
+    "name": "Walk through",
+    "description": "Ensayar por primera vez."
+  },
+  {
+    "id": 493,
+    "name": "Warm up",
+    "description": "Calentar"
+  },
+  {
+    "id": 494,
+    "name": "Warn off",
+    "description": "Advertir"
+  },
+  {
+    "id": 495,
+    "name": "Wash off / wash out",
+    "description": "Remover una mancha lavando"
+  },
+  {
+    "id": 496,
+    "name": "Wash up",
+    "description": "Lavar los platos"
+  },
+  {
+    "id": 497,
+    "name": "Water down",
+    "description": "Diluir"
+  },
+  {
+    "id": 498,
+    "name": "Wear away / wear down",
+    "description": "Desgastar"
+  },
+  {
+    "id": 499,
+    "name": "Wear off",
+    "description": "Disminuir,desparecer"
+  },
+  {
+    "id": 500,
+    "name": "Wear on",
+    "description": "Transcurrir lentamente"
+  }
+]
