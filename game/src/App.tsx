@@ -12,7 +12,13 @@ import {
 } from "@mui/material";
 import { Quiz } from "./types";
 import useQuestion from "./hooks/useQuestion";
+import useTimer from "./hooks/useTimer";
+import useLifes from "./hooks/useLifes";
+import useScore from "./hooks/useScore";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import JSConfetti from "js-confetti";
+import { MAX_SCORE } from "./config";
 
 const jsConfetti = new JSConfetti();
 
@@ -23,6 +29,19 @@ function App() {
 
   const { getQuiz } = useQuestion();
 
+  const { time, isRunning, start, stop, reset, formatTime } = useTimer();
+
+  const { lifes, removeLife, resetLifes } = useLifes();
+
+  const { score, addPoint, resetScore } = useScore();
+
+  const resetGame = () => {
+    resetLifes();
+    resetScore();
+    reset();
+    stop();
+  };
+
   const fetchQuiz = async () => {
     const quiz = await getQuiz();
     console.log(quiz);
@@ -32,12 +51,25 @@ function App() {
   useEffect(() => {
     fetchQuiz();
     setAnimate(true);
+    start();
   }, []);
+
+  useEffect(() => {
+    if (lifes === 0) {
+      resetGame();
+      fetchQuiz();
+    }
+  }, [lifes]);
 
   const handleResponse = (response: string) => {
     setResponse(response);
+    stop();
+    reset();
     if (response === quiz?.question.description) {
       jsConfetti.addConfetti();
+      addPoint(time);
+    } else {
+      removeLife();
     }
   };
 
@@ -47,20 +79,33 @@ function App() {
     setTimeout(() => {
       fetchQuiz();
       setAnimate(true);
+      start();
     }, 1500);
   };
 
   return (
     <Container maxWidth="sm">
+      <Grid container spacing={1}>
+        <Timer time={time} isRunning={isRunning} />
+        <Score score={score} />
+        <Lifes lifes={lifes} />
+      </Grid>
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <Grow in={true}>
-            <Box marginBottom={6}>
+            <Box marginBottom={6} marginTop={3}>
               <Typography variant="h5" color="initial">
                 Phrasal Verbs Quiz
               </Typography>
             </Box>
           </Grow>
+          {/* <Grow in={true}>
+            <Box marginBottom={3}>
+              <Typography variant="h6" color="initial">
+                {formatTime(time)}
+              </Typography>
+            </Box>
+          </Grow> */}
           {quiz && (
             <>
               <Zoom in={animate}>
@@ -125,3 +170,40 @@ function App() {
 }
 
 export default App;
+
+function Lifes({ lifes }: { lifes: number }) {
+  return (
+    <Grid item xs={4}>
+       <Box display="flex" justifyContent="flex-end">
+      {Array.from({ length: lifes }, (_, index) => (
+        <FavoriteIcon color="error" key={index} />
+      ))}
+      </Box>
+    </Grid>
+  );
+}
+
+function Score({ score }: { score: number }) {
+  return (
+    <Grid item xs={4}>
+      <Typography variant="h6" color="initial">
+        {score}
+      </Typography>
+    </Grid>
+  );
+}
+
+function Timer({ time, isRunning }: { time: number, isRunning: boolean }) {
+
+  const points = Math.floor(MAX_SCORE / time);
+
+  return (
+    <Grid item xs={4}>
+      <Box display="flex" justifyContent="flex-start">
+      <Typography variant="h6" color="initial">
+        {isFinite(points) ? points : 0}
+      </Typography>
+      </Box>
+    </Grid>
+  );
+}
