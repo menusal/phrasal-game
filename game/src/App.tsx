@@ -9,6 +9,9 @@ import {
   Box,
   Divider,
   Zoom,
+  AppBar,
+  IconButton,
+  Toolbar,
 } from "@mui/material";
 import { Quiz } from "./types";
 import useQuestion from "./hooks/useQuestion";
@@ -19,13 +22,16 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import JSConfetti from "js-confetti";
 import { MAX_SCORE } from "./config";
+import StartModal from "./components/StartModal";
 
 const jsConfetti = new JSConfetti();
 
 function App() {
   const [response, setResponse] = useState<string>("");
+  const [open, setOpen] = useState<boolean>(false);
   const [quiz, setQuiz] = useState<Quiz | null>(null);
   const [animate, setAnimate] = useState<boolean>(false);
+  const [buttonTex, setButtonText] = useState<string>("Start");
 
   const { getQuiz } = useQuestion();
 
@@ -37,29 +43,40 @@ function App() {
 
   const resetGame = () => {
     resetLifes();
-    resetScore();
     reset();
     stop();
+    setOpen(true);
+    setButtonText("Start new game");
   };
 
   const fetchQuiz = async () => {
     const quiz = await getQuiz();
-    console.log(quiz);
+
     setQuiz(quiz);
   };
 
   useEffect(() => {
-    fetchQuiz();
-    setAnimate(true);
-    start();
+    setResponse("start");
+    setUpGame();
+    resetGame();
   }, []);
 
   useEffect(() => {
     if (lifes === 0) {
       resetGame();
-      fetchQuiz();
     }
   }, [lifes]);
+
+  const setUpGame = () => {
+    setOpen(false);
+    setAnimate(true);
+  };
+
+  const startGame = () => {
+    setUpGame();
+    fetchQuiz();
+    start();
+  };
 
   const handleResponse = (response: string) => {
     setResponse(response);
@@ -76,6 +93,8 @@ function App() {
   const handleNext = () => {
     setAnimate(false);
     setResponse("");
+    setButtonText("Next");
+
     setTimeout(() => {
       fetchQuiz();
       setAnimate(true);
@@ -84,89 +103,97 @@ function App() {
   };
 
   return (
-    <Container maxWidth="sm">
-      <Grid container spacing={1}>
-        <Timer time={time} isRunning={isRunning} />
-        <Score score={score} />
-        <Lifes lifes={lifes} />
-      </Grid>
-      <Grid container spacing={2}>
-        <Grid item xs={12}>
-          <Grow in={true}>
-            <Box marginBottom={6} marginTop={3}>
-              <Typography variant="h5" color="initial">
-                Phrasal Verbs Quiz
-              </Typography>
-            </Box>
-          </Grow>
-          {/* <Grow in={true}>
-            <Box marginBottom={3}>
-              <Typography variant="h6" color="initial">
-                {formatTime(time)}
-              </Typography>
-            </Box>
-          </Grow> */}
-          {quiz && (
-            <>
-              <Zoom in={animate}>
+    <>
+      <Header />
+      <Container maxWidth="sm">
+        <StartModal open={open} onClose={() => setOpen(false)} score={score} />
+        <Grid container spacing={2}>
+          <Grid item xs={12}>
+            <Grow in={true}>
+              <Box marginBottom={6} marginTop={3}>
                 <Typography variant="h5" color="initial">
-                  {quiz.question.name}
+                  Phrasal Verbs Quiz
                 </Typography>
-              </Zoom>
-
-              <Box>
-                {quiz.responses.map((option, index) => (
-                  <Grow in={animate} timeout={500 * index} key={index}>
-                    <Box marginTop={3}>
-                      <Button
-                        fullWidth
-                        disableFocusRipple={response !== ""}
-                        disableRipple={response !== ""}
-                        disableTouchRipple={response !== ""}
-                        variant="contained"
-                        color={
-                          response === ""
-                            ? "primary"
-                            : option === quiz.question.description
-                            ? `success`
-                            : response === option
-                            ? `error`
-                            : `primary`
-                        }
-                        size="large"
-                        className="response"
-                        onClick={
-                          response === ""
-                            ? () => handleResponse(option)
-                            : () => {}
-                        }
-                      >
-                        {option}
-                      </Button>
-                    </Box>
-                  </Grow>
-                ))}
-                <Divider />
-                <Box
-                  marginTop={6}
-                  display={response === "" ? "none" : "-moz-initial"}
-                >
-                  <Button
-                    color="primary"
-                    variant="outlined"
-                    fullWidth
-                    onClick={handleNext}
-                  >
-                    Siguiente
-                  </Button>
-                </Box>
               </Box>
-            </>
-          )}
+            </Grow>
+            {quiz && (
+              <>
+                <Zoom in={animate}>
+                  <Typography variant="h5" color="initial">
+                    {quiz.question.name}
+                  </Typography>
+                </Zoom>
+
+                <Box>
+                  {quiz.responses.map((option, index) => (
+                    <Grow in={animate} timeout={500 * index} key={index}>
+                      <Box marginTop={3}>
+                        <Button
+                          fullWidth
+                          disableFocusRipple={response !== ""}
+                          disableRipple={response !== ""}
+                          disableTouchRipple={response !== ""}
+                          variant="contained"
+                          color={
+                            response === ""
+                              ? "primary"
+                              : option === quiz.question.description
+                              ? `success`
+                              : response === option
+                              ? `error`
+                              : `primary`
+                          }
+                          size="large"
+                          className="response"
+                          onClick={
+                            response === ""
+                              ? () => handleResponse(option)
+                              : () => {}
+                          }
+                        >
+                          {option}
+                        </Button>
+                      </Box>
+                    </Grow>
+                  ))}
+                  <Divider />
+                </Box>
+              </>
+            )}
+            <Box
+              marginTop={6}
+              display={response === "" ? "none" : "-moz-initial"}
+            >
+              <Button
+                color="primary"
+                variant="outlined"
+                fullWidth
+                onClick={handleNext}
+              >
+                {buttonTex}
+              </Button>
+            </Box>
+          </Grid>
         </Grid>
-      </Grid>
-    </Container>
+      </Container>
+    </>
   );
+
+  function Header() {
+    return (
+      <Box sx={{ flexGrow: 1 }}>
+        <AppBar position="static" sx={{ bgcolor: "transparent" }}>
+          <Toolbar>
+            <Grid container>
+              <Score score={score} />
+              <Timer time={time} isRunning={isRunning} />
+              <Lifes lifes={lifes} />
+            </Grid>
+          </Toolbar>
+        </AppBar>
+      </Box>
+    );
+  }
 }
 
 export default App;
@@ -174,10 +201,10 @@ export default App;
 function Lifes({ lifes }: { lifes: number }) {
   return (
     <Grid item xs={4}>
-       <Box display="flex" justifyContent="flex-end">
-      {Array.from({ length: lifes }, (_, index) => (
-        <FavoriteIcon color="error" key={index} />
-      ))}
+      <Box display="flex" justifyContent="flex-end">
+        {Array.from({ length: lifes }, (_, index) => (
+          <FavoriteIcon color="error" key={index} />
+        ))}
       </Box>
     </Grid>
   );
@@ -186,23 +213,24 @@ function Lifes({ lifes }: { lifes: number }) {
 function Score({ score }: { score: number }) {
   return (
     <Grid item xs={4}>
-      <Typography variant="h6" color="initial">
-        {score}
-      </Typography>
+      <Box display="flex" justifyContent="flex-start">
+        <Typography variant="h6" color="initial">
+          {score}
+        </Typography>
+      </Box>
     </Grid>
   );
 }
 
-function Timer({ time, isRunning }: { time: number, isRunning: boolean }) {
-
+function Timer({ time, isRunning }: { time: number; isRunning: boolean }) {
   const points = Math.floor(MAX_SCORE / time);
 
   return (
     <Grid item xs={4}>
-      <Box display="flex" justifyContent="flex-start">
-      <Typography variant="h6" color="initial">
-        {isFinite(points) ? points : 0}
-      </Typography>
+      <Box display="flex" justifyContent="center">
+        <Typography variant="h6" color="initial">
+          {isFinite(points) ? points : 0}
+        </Typography>
       </Box>
     </Grid>
   );
