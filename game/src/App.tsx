@@ -23,6 +23,7 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import JSConfetti from "js-confetti";
 import { MAX_SCORE } from "./config";
 import StartModal from "./components/StartModal";
+import Counter from "./components/Counter";
 
 const jsConfetti = new JSConfetti();
 
@@ -35,17 +36,17 @@ function App() {
 
   const { getQuiz } = useQuestion();
 
-  const { time, isRunning, start, stop, reset, formatTime } = useTimer();
+  const { time, timeFrom, isRunning, start, stop, reset } = useTimer();
 
   const { lifes, removeLife, resetLifes } = useLifes();
 
-  const { score, addPoint, resetScore } = useScore();
+  const { score, addPoint, resetScore, scoreFrom } = useScore();
 
   const resetGame = () => {
     resetLifes();
     reset();
     stop();
-    setOpen(true);
+    score > 0 && setOpen(true);
     setButtonText("Start new game");
   };
 
@@ -72,19 +73,13 @@ function App() {
     setAnimate(true);
   };
 
-  const startGame = () => {
-    setUpGame();
-    fetchQuiz();
-    start();
-  };
-
   const handleResponse = (response: string) => {
     setResponse(response);
     stop();
     reset();
     if (response === quiz?.question.description) {
       jsConfetti.addConfetti();
-      addPoint(time);
+      addPoint(time > 0 ? time : 1);
     } else {
       removeLife();
     }
@@ -102,11 +97,23 @@ function App() {
     }, 1500);
   };
 
+  const handleClose = () => {
+    setOpen(false);
+    resetScore();
+  };
+
   return (
     <>
-      <Header />
+      <Header
+        score={score}
+        scoreFrom={scoreFrom}
+        time={time}
+        timeFrom={timeFrom}
+        lifes={lifes}
+        isRunning={isRunning}
+      />
       <Container maxWidth="sm">
-        <StartModal open={open} onClose={() => setOpen(false)} score={score} />
+        <StartModal open={open} onClose={handleClose} score={score} />
         <Grid container spacing={2}>
           <Grid item xs={12}>
             <Grow in={true}>
@@ -178,25 +185,39 @@ function App() {
       </Container>
     </>
   );
-
-  function Header() {
-    return (
-      <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static" sx={{ bgcolor: "transparent" }}>
-          <Toolbar>
-            <Grid container>
-              <Score score={score} />
-              <Timer time={time} isRunning={isRunning} />
-              <Lifes lifes={lifes} />
-            </Grid>
-          </Toolbar>
-        </AppBar>
-      </Box>
-    );
-  }
 }
 
 export default App;
+
+function Header({
+  score,
+  scoreFrom,
+  time,
+  timeFrom,
+  isRunning,
+  lifes,
+}: {
+  score: number;
+  scoreFrom: number;
+  time: number;
+  timeFrom: number;
+  isRunning: boolean;
+  lifes: number;
+}) {
+  return (
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar position="static" sx={{ bgcolor: "transparent" }}>
+        <Toolbar>
+          <Grid container>
+            <Score score={score} scoreFrom={scoreFrom} />
+            <Timer time={time} isRunning={isRunning} timeFrom={timeFrom} />
+            <Lifes lifes={lifes} />
+          </Grid>
+        </Toolbar>
+      </AppBar>
+    </Box>
+  );
+}
 
 function Lifes({ lifes }: { lifes: number }) {
   return (
@@ -210,27 +231,37 @@ function Lifes({ lifes }: { lifes: number }) {
   );
 }
 
-function Score({ score }: { score: number }) {
+function Score({ score, scoreFrom }: { score: number; scoreFrom: number }) {
   return (
     <Grid item xs={4}>
       <Box display="flex" justifyContent="flex-start">
-        <Typography variant="h6" color="initial">
-          {score}
-        </Typography>
+        <Counter from={scoreFrom} to={score} duration={2} variant='h6' />
       </Box>
     </Grid>
   );
 }
 
-function Timer({ time, isRunning }: { time: number; isRunning: boolean }) {
-  const points = Math.floor(MAX_SCORE / time);
+function Timer({
+  time,
+  timeFrom,
+  isRunning,
+}: {
+  time: number;
+  timeFrom: number;
+  isRunning: boolean;
+}) {
+  const points = Math.floor(MAX_SCORE / time) || 0;
+  const pointsFrom = Math.floor(MAX_SCORE / timeFrom) || 0;
 
   return (
     <Grid item xs={4}>
       <Box display="flex" justifyContent="center">
-        <Typography variant="h6" color="initial">
-          {isFinite(points) ? points : 0}
-        </Typography>
+        <Counter
+          from={isFinite(pointsFrom) ? pointsFrom : 0}
+          to={isFinite(points) ? points : 0}
+          duration={1}
+          variant='h6'
+        />
       </Box>
     </Grid>
   );

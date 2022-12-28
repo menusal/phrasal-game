@@ -33,3 +33,9 @@
 .header {
   background-color: darkorange;
 }
+
+.modalContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

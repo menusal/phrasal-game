@@ -1,7 +1,9 @@
 import React from 'react'
+import { MAX_SCORE } from '../config'
 
 export default function useTimer() {
-    const [time, setTime] = React.useState(0)
+    const [time, setTime] = React.useState(1)
+    const [timeFrom, setTimeFrom] = React.useState(0)
     const [isRunning, setIsRunning] = React.useState(false)
 
     React.useEffect(() => {
@@ -9,6 +11,7 @@ export default function useTimer() {
 
         if (isRunning) {
             interval = setInterval(() => {
+                setTimeFrom(time)
                 setTime((time) => time + 1)
             }, 1000)
         } else if (!isRunning && time !== 0) {
@@ -27,18 +30,10 @@ export default function useTimer() {
     }
 
     const reset = () => {
-        setTime(0)
+        setTime(1)
+        setTimeFrom(0)
         setIsRunning(false)
     }
 
-    const formatTime = (time: number) => {
-        const getSeconds = `0${(time % 60)}`.slice(-2)
-        const minutes = `${Math.floor(time / 60)}`
-        const getMinutes = `0${minutes % 60}`.slice(-2)
-        const getHours = `0${Math.floor(time / 3600)}`.slice(-2)
-
-        return `${getHours} : ${getMinutes} : ${getSeconds}`
-    }
-
-    return { time, isRunning, start, stop, reset, formatTime }
+    return { time, timeFrom, isRunning, start, stop, reset }
 }

@@ -4,10 +4,9 @@ import {
   DialogTitle,
   DialogContent,
   DialogContentText,
-  Typography,
-  Box,
+  DialogActions,
 } from "@mui/material";
-import React from "react";
+import Counter from "./Counter";
 
 export default function StartModal({
   open,
@@ -29,16 +28,25 @@ export default function StartModal({
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description"
     >
-      <DialogTitle id="alert-dialog-title">Phrasal Verbs Quiz</DialogTitle>
-      <DialogContent>
+      <DialogTitle id="alert-dialog-title"> Your final score is</DialogTitle>
+      <DialogContent className="modalContent">
         <DialogContentText id="alert-dialog-description">
-          <Box>
-            <Typography variant="h1" color="primary">
-              {score}
-            </Typography>
-          </Box>
+          <>
+            <Counter
+              from={0}
+              to={score}
+              duration={2}
+              variant="h3"
+              color="primary"
+            />
+          </>
         </DialogContentText>
       </DialogContent>
+      <DialogActions>
+        <Button onClick={handleClose} autoFocus>
+          Close
+        </Button>
+      </DialogActions>
     </Dialog>
   );
 }
