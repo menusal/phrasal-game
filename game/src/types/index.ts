@@ -8,3 +8,8 @@ export type Quiz = {
     question: Verb,
     responses: string[],
 }
+
+export type ScoreHistory = {
+    score: number,
+    date: string,
+}
