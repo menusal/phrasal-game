@@ -12,6 +12,7 @@ import {
   AppBar,
   IconButton,
   Toolbar,
+  LinearProgress,
 } from "@mui/material";
 import { Quiz } from "./types";
 import useQuestion from "./hooks/useQuestion";
@@ -21,7 +22,7 @@ import useScore from "./hooks/useScore";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import JSConfetti from "js-confetti";
-import { MAX_SCORE } from "./config";
+import { MAX_SCORE, MAX_TIME } from "./config";
 import StartModal from "./components/StartModal";
 import Counter from "./components/Counter";
 
@@ -33,6 +34,7 @@ function App() {
   const [quiz, setQuiz] = useState<Quiz | null>(null);
   const [animate, setAnimate] = useState<boolean>(false);
   const [buttonTex, setButtonText] = useState<string>("Start");
+  const [progress, setProgress] = useState(0);
 
   const { getQuiz } = useQuestion();
 
@@ -68,6 +70,17 @@ function App() {
     }
   }, [lifes]);
 
+  useEffect(() => {
+    console.log("time", time, progress);
+    // set proggress based in MAX_TIME and time
+    setProgress((time / MAX_TIME) * 100);
+
+    if (time === MAX_TIME) {
+      handleNext();
+    }
+
+  }, [time]);
+
   const setUpGame = () => {
     setOpen(false);
     setAnimate(true);
@@ -89,6 +102,8 @@ function App() {
     setAnimate(false);
     setResponse("");
     setButtonText("Next");
+    setProgress(0);
+    reset();
 
     setTimeout(() => {
       fetchQuiz();
@@ -126,7 +141,39 @@ function App() {
             {quiz && (
               <>
                 <Zoom in={animate}>
-                  <Typography variant="h5" color="initial">
+                  <Box sx={{ width: "100%" }}>
+                    <Typography variant="h5" color="initial">
+                      Play for{" "}
+                      <Timer
+                        time={time}
+                        isRunning={isRunning}
+                        timeFrom={timeFrom}
+                      />{" "}
+                      points
+                    </Typography>
+                  </Box>
+                </Zoom>
+                <Zoom in={animate}>
+                  <Box sx={{ width: "100%", padding: "20px 0" }}>
+                    <LinearProgress
+                      variant="determinate"
+                      // color={
+                      //   time > 5 ? "warning" : time > 15 ? "error" : "success"
+                      // }
+                      sx={{
+                        backgroundColor: "transparent",
+                        height: "6px",
+                        "& > .MuiLinearProgress-bar": {
+                          backgroundColor:
+                          progress > 70 ? "red" : progress > 25 ? "yellow" : "green",
+                        },
+                      }}
+                      value={progress}
+                    />
+                  </Box>
+                </Zoom>
+                <Zoom in={animate}>
+                  <Typography variant="h4" color="initial">
                     {quiz.question.name}
                   </Typography>
                 </Zoom>
@@ -210,7 +257,6 @@ function Header({
         <Toolbar>
           <Grid container>
             <Score score={score} scoreFrom={scoreFrom} />
-            <Timer time={time} isRunning={isRunning} timeFrom={timeFrom} />
             <Lifes lifes={lifes} />
           </Grid>
         </Toolbar>
@@ -221,7 +267,7 @@ function Header({
 
 function Lifes({ lifes }: { lifes: number }) {
   return (
-    <Grid item xs={4}>
+    <Grid item xs={8}>
       <Box display="flex" justifyContent="flex-end">
         {Array.from({ length: lifes }, (_, index) => (
           <FavoriteIcon color="error" key={index} />
@@ -233,9 +279,9 @@ function Lifes({ lifes }: { lifes: number }) {
 
 function Score({ score, scoreFrom }: { score: number; scoreFrom: number }) {
   return (
-    <Grid item xs={4}>
+    <Grid item xs={8}>
       <Box display="flex" justifyContent="flex-start">
-        <Counter from={scoreFrom} to={score} duration={2} variant='h6' />
+        <Counter from={scoreFrom} to={score} duration={2} variant="h6" />
       </Box>
     </Grid>
   );
@@ -254,15 +300,11 @@ function Timer({
   const pointsFrom = Math.floor(MAX_SCORE / timeFrom) || 0;
 
   return (
-    <Grid item xs={4}>
-      <Box display="flex" justifyContent="center">
-        <Counter
-          from={isFinite(pointsFrom) ? pointsFrom : 0}
-          to={isFinite(points) ? points : 0}
-          duration={1}
-          variant='h6'
-        />
-      </Box>
-    </Grid>
+    <Counter
+      from={isFinite(pointsFrom) ? pointsFrom : 0}
+      to={isFinite(points) ? points : 0}
+      duration={1}
+      variant="h5"
+    />
   );
 }
