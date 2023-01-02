@@ -25,6 +25,7 @@ import JSConfetti from "js-confetti";
 import { MAX_SCORE, MAX_TIME } from "./config";
 import StartModal from "./components/StartModal";
 import Counter from "./components/Counter";
+import { Opacity } from "@mui/icons-material";
 
 const jsConfetti = new JSConfetti();
 
@@ -69,6 +70,11 @@ function App() {
       resetGame();
     }
   }, [lifes]);
+
+  useEffect(() => {
+    console.log("isRunning", isRunning);
+  }, [isRunning]);
+
 
   useEffect(() => {
     console.log("time", time, progress);
@@ -140,8 +146,8 @@ function App() {
             </Grow>
             {quiz && (
               <>
-                <Zoom in={animate}>
-                  <Box sx={{ width: "100%" }}>
+                <Zoom in={animate && isRunning}>
+                  <Box sx={{ width: "100%"}}>
                     <Typography variant="h5" color="initial">
                       Play for{" "}
                       <Timer
@@ -153,7 +159,7 @@ function App() {
                     </Typography>
                   </Box>
                 </Zoom>
-                <Zoom in={animate}>
+                <Zoom in={animate && isRunning}>
                   <Box sx={{ width: "100%", padding: "20px 0" }}>
                     <LinearProgress
                       variant="determinate"
@@ -267,7 +273,7 @@ function Header({
 
 function Lifes({ lifes }: { lifes: number }) {
   return (
-    <Grid item xs={8}>
+    <Grid item xs={6}>
       <Box display="flex" justifyContent="flex-end">
         {Array.from({ length: lifes }, (_, index) => (
           <FavoriteIcon color="error" key={index} />
@@ -279,7 +285,7 @@ function Lifes({ lifes }: { lifes: number }) {
 
 function Score({ score, scoreFrom }: { score: number; scoreFrom: number }) {
   return (
-    <Grid item xs={8}>
+    <Grid item xs={6}>
       <Box display="flex" justifyContent="flex-start">
         <Counter from={scoreFrom} to={score} duration={2} variant="h6" />
       </Box>
