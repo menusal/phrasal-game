@@ -1,0 +1,2498 @@
+[
+  {
+    "id": 1,
+    "name": "Add up to",
+    "description": "Reach a total"
+  },
+  {
+    "id": 2,
+    "name": "Add up",
+    "description": "Totalize"
+  },
+  {
+    "id": 3,
+    "name": "Answer back",
+    "description": "Answer rudely"
+  },
+  {
+    "id": 4,
+    "name": "Answer for",
+    "description": "Reply from"
+  },
+  {
+    "id": 5,
+    "name": "Ask about",
+    "description": "Ask for (a subject)"
+  },
+  {
+    "id": 6,
+    "name": "Ask after",
+    "description": "Ask for (health)"
+  },
+  {
+    "id": 7,
+    "name": "Ask back",
+    "description": "Invite to come back"
+  },
+  {
+    "id": 8,
+    "name": "Ask down",
+    "description": "Invite to download"
+  },
+  {
+    "id": 9,
+    "name": "Ask for",
+    "description": "Ask, ask for"
+  },
+  {
+    "id": 10,
+    "name": "Ask in",
+    "description": "Invite to enter"
+  },
+  {
+    "id": 11,
+    "name": "Ask out",
+    "description": "Ask out"
+  },
+  {
+    "id": 12,
+    "name": "Ask up to",
+    "description": "Ask up to (a price)"
+  },
+  {
+    "id": 13,
+    "name": "Ask up",
+    "description": "Invite to upload"
+  },
+  {
+    "id": 14,
+    "name": "Backaway",
+    "description": "Back"
+  },
+  {
+    "id": 15,
+    "name": "Back out",
+    "description": "Go Back"
+  },
+  {
+    "id": 16,
+    "name": "Back up",
+    "description": "Reinforce"
+  },
+  {
+    "id": 17,
+    "name": "Be about",
+    "description": "Be by (a place - action)"
+  },
+  {
+    "id": 18,
+    "name": "Beaway",
+    "description": "Be outside"
+  },
+  {
+    "id": 19,
+    "name": "Be back",
+    "description": "Be back"
+  },
+  {
+    "id": 20,
+    "name": "Befor",
+    "description": "Be in favor of"
+  },
+  {
+    "id": 21,
+    "name": "Be in",
+    "description": "Be at home"
+  },
+  {
+    "id": 22,
+    "name": "Be off",
+    "description": "Leave, be off"
+  },
+  {
+    "id": 23,
+    "name": "Be on",
+    "description": "Be on"
+  },
+  {
+    "id": 24,
+    "name": "Be out",
+    "description": "Be outside"
+  },
+  {
+    "id": 25,
+    "name": "Be over",
+    "description": "Be finished"
+  },
+  {
+    "id": 26,
+    "name": "Be up",
+    "description": "Stay up"
+  },
+  {
+    "id": 27,
+    "name": "Bend down",
+    "description": "Crouch"
+  },
+  {
+    "id": 28,
+    "name": "Bend over",
+    "description": "Lean"
+  },
+  {
+    "id": 29,
+    "name": "Blow away",
+    "description": "Impress, make"
+  },
+  {
+    "id": 30,
+    "name": "Blow down",
+    "description": "Collapse by wind"
+  },
+  {
+    "id": 31,
+    "name": "Blow off",
+    "description": "Let (steam) out"
+  },
+  {
+    "id": 32,
+    "name": "Blow out",
+    "description": "Extinguish (it) (a flame)"
+  },
+  {
+    "id": 33,
+    "name": "Blow up",
+    "description": "Flying (with explosives)"
+  },
+  {
+    "id": 34,
+    "name": "Break away",
+    "description": "Let go"
+  },
+  {
+    "id": 35,
+    "name": "Breakdown",
+    "description": "Stop working, demolish"
+  },
+  {
+    "id": 36,
+    "name": "Break in",
+    "description": "Break in, interrupt"
+  },
+  {
+    "id": 37,
+    "name": "Break off",
+    "description": "Break (se) (relationships)"
+  },
+  {
+    "id": 38,
+    "name": "Break out",
+    "description": "Escape, break out (a war)"
+  },
+  {
+    "id": 39,
+    "name": "Break up",
+    "description": "End a relationship"
+  },
+  {
+    "id": 40,
+    "name": "Bring about",
+    "description": "Carry"
+  },
+  {
+    "id": 41,
+    "name": "Bring along",
+    "description": "Bring (with)"
+  },
+  {
+    "id": 42,
+    "name": "Bring back",
+    "description": "Return"
+  },
+  {
+    "id": 43,
+    "name": "Bring down",
+    "description": "Tear down, bring down"
+  },
+  {
+    "id": 44,
+    "name": "Bring in",
+    "description": "Enter"
+  },
+  {
+    "id": 45,
+    "name": "Bring out",
+    "description": "Put out, publish"
+  },
+  {
+    "id": 46,
+    "name": "Bring up",
+    "description": "Raise, educate"
+  },
+  {
+    "id": 47,
+    "name": "Brush off",
+    "description": "Dust"
+  },
+  {
+    "id": 48,
+    "name": "Burndown",
+    "description": "Collapse (by fire)"
+  },
+  {
+    "id": 49,
+    "name": "Burn out",
+    "description": "Consume (fire)"
+  },
+  {
+    "id": 50,
+    "name": "Burn up",
+    "description": "Consumed (by fire)"
+  },
+  {
+    "id": 51,
+    "name": "Buy for",
+    "description": "Buy by or for"
+  },
+  {
+    "id": 52,
+    "name": "Buy over",
+    "description": "Bribe"
+  },
+  {
+    "id": 53,
+    "name": "Buy up",
+    "description": "Hoard"
+  },
+  {
+    "id": 54,
+    "name": "Call at",
+    "description": "Pay a visit, stop over"
+  },
+  {
+    "id": 55,
+    "name": "Call away",
+    "description": "Keep calling"
+  },
+  {
+    "id": 56,
+    "name": "Call back",
+    "description": "Return a call"
+  },
+  {
+    "id": 57,
+    "name": "Call down",
+    "description": "Call (someone) to come down"
+  },
+  {
+    "id": 58,
+    "name": "Call for",
+    "description": "Ask loudly, demand to go"
+  },
+  {
+    "id": 59,
+    "name": "Call in",
+    "description": "Call (someone) to come in"
+  },
+  {
+    "id": 60,
+    "name": "Call off",
+    "description": "Cancel"
+  },
+  {
+    "id": 61,
+    "name": "Call on",
+    "description": "Go see (someone)"
+  },
+  {
+    "id": 62,
+    "name": "Call out",
+    "description": "Scream"
+  },
+  {
+    "id": 63,
+    "name": "Call over",
+    "description": "Roll list, enumerate"
+  },
+  {
+    "id": 64,
+    "name": "Call up",
+    "description": "Phone"
+  },
+  {
+    "id": 65,
+    "name": "Carry along",
+    "description": "Persuade"
+  },
+  {
+    "id": 66,
+    "name": "Carry off",
+    "description": "Take away by force"
+  },
+  {
+    "id": 67,
+    "name": "Carry on",
+    "description": "Continue"
+  },
+  {
+    "id": 68,
+    "name": "Carry out",
+    "description": "Carry out"
+  },
+  {
+    "id": 69,
+    "name": "Clear away",
+    "description": "Disperse (se)"
+  },
+  {
+    "id": 70,
+    "name": "Clear off",
+    "description": "Clean"
+  },
+  {
+    "id": 71,
+    "name": "Clear out",
+    "description": "Leave"
+  },
+  {
+    "id": 72,
+    "name": "Clear up",
+    "description": "Clarify (time, a mystery)"
+  },
+  {
+    "id": 73,
+    "name": "Close down",
+    "description": "Close"
+  },
+  {
+    "id": 74,
+    "name": "Come after",
+    "description": "Follow"
+  },
+  {
+    "id": 75,
+    "name": "Come back",
+    "description": "Back"
+  },
+  {
+    "id": 76,
+    "name": "Come in",
+    "description": "Enter"
+  },
+  {
+    "id": 77,
+    "name": "Eat away",
+    "description": "Gnaw, eat away, corrode, wear down."
+  },
+  {
+    "id": 78,
+    "name": "Eat into",
+    "description": "Corrode, eat."
+  },
+  {
+    "id": 79,
+    "name": "Eat out",
+    "description": "Eat out, dine out."
+  },
+  {
+    "id": 80,
+    "name": "Eat up",
+    "description": "Eat, consume, swallow, devour."
+  },
+  {
+    "id": 81,
+    "name": "Egg on",
+    "description": "Encourage, incite."
+  },
+  {
+    "id": 82,
+    "name": "End in",
+    "description": "End in, end with."
+  },
+  {
+    "id": 83,
+    "name": "End off",
+    "description": "Finish, finish, go to stop"
+  },
+  {
+    "id": 84,
+    "name": "Face up to",
+    "description": "Face, face, face."
+  },
+  {
+    "id": 85,
+    "name": "Fall about",
+    "description": "Crack, break (with laughter)."
+  },
+  {
+    "id": 86,
+    "name": "Fall apart",
+    "description": "To break, come apart, fall apart."
+  },
+  {
+    "id": 87,
+    "name": "Fall away",
+    "description": "Decrease/disappear/fade away."
+  },
+  {
+    "id": 88,
+    "name": "Fall back on to",
+    "description": "Recourse to, draw on, lean on."
+  },
+  {
+    "id": 89,
+    "name": "Fall back",
+    "description": "Back off, retreat."
+  },
+  {
+    "id": 90,
+    "name": "Fall behind with",
+    "description": "Being behind with"
+  },
+  {
+    "id": 91,
+    "name": "Fall behind",
+    "description": "Be behind, fall behind, lag behind."
+  },
+  {
+    "id": 92,
+    "name": "Falldown",
+    "description": "To fall, to fall/sink, to collapse, to collapse"
+  },
+  {
+    "id": 93,
+    "name": "Fall in love",
+    "description": "Fall in love with."
+  },
+  {
+    "id": 94,
+    "name": "Fall in with",
+    "description": "meet with, meet with/agree with, approve"
+  },
+  {
+    "id": 95,
+    "name": "Fall in",
+    "description": "Crumble, fall down/ line up, line up"
+  },
+  {
+    "id": 96,
+    "name": "Fall into",
+    "description": "Split into, sort into/acquire."
+  },
+  {
+    "id": 97,
+    "name": "Fall off",
+    "description": "Lower, lessen/ worsen/ fall off, fall off."
+  },
+  {
+    "id": 98,
+    "name": "Fall on",
+    "description": "Impact on, fall on, touch/attack, fall on."
+  },
+  {
+    "id": 99,
+    "name": "Fall out",
+    "description": "Squad/ fight/ break ranks/ fall down."
+  },
+  {
+    "id": 100,
+    "name": "Fall over",
+    "description": "To fall, trip over/ fall over"
+  },
+  {
+    "id": 101,
+    "name": "Fall through",
+    "description": "Fail, come to nothing."
+  },
+  {
+    "id": 102,
+    "name": "Fall to",
+    "description": "Begin to, come to/correspond to, pertain to"
+  },
+  {
+    "id": 103,
+    "name": "Fall under",
+    "description": "Classify to, be included,-to in."
+  },
+  {
+    "id": 104,
+    "name": "Feel for",
+    "description": "To pity, to pity."
+  },
+  {
+    "id": 105,
+    "name": "Feel up to",
+    "description": "Feeling up for, feeling up for."
+  },
+  {
+    "id": 106,
+    "name": "Figure on",
+    "description": "Expect, expect."
+  },
+  {
+    "id": 107,
+    "name": "Figure out",
+    "description": "Understand, explain/solve, calculate."
+  },
+  {
+    "id": 108,
+    "name": "Fill in for",
+    "description": "Replace."
+  },
+  {
+    "id": 109,
+    "name": "Fill in",
+    "description": "Fill/update."
+  },
+  {
+    "id": 110,
+    "name": "Fill out",
+    "description": "Fatten/fill up."
+  },
+  {
+    "id": 111,
+    "name": "Fill up",
+    "description": "Fill up/ fill up."
+  },
+  {
+    "id": 112,
+    "name": "Find out",
+    "description": "Ask, find out/ find out/ find out, catch"
+  },
+  {
+    "id": 113,
+    "name": "Get about",
+    "description": "Move, move, go out/travel/spread out."
+  },
+  {
+    "id": 114,
+    "name": "Get across",
+    "description": "Cross/ cross/ make understand, make understand"
+  },
+  {
+    "id": 115,
+    "name": "Get ahead",
+    "description": "Forward, progress."
+  },
+  {
+    "id": 116,
+    "name": "Get along with",
+    "description": "Get along (well) with/ march, go with."
+  },
+  {
+    "id": 117,
+    "name": "Get along",
+    "description": "Get by, get by / go away, go away."
+  },
+  {
+    "id": 118,
+    "name": "Get around to",
+    "description": "Find time to."
+  },
+  {
+    "id": 119,
+    "name": "Get around",
+    "description": "Move, move around/ travel/ spread out/ get around."
+  },
+  {
+    "id": 120,
+    "name": "Get at",
+    "description": "Reach, reach/ hint/ criticize/ mess with."
+  },
+  {
+    "id": 121,
+    "name": "Get away with",
+    "description": "Get away scot-free from."
+  },
+  {
+    "id": 122,
+    "name": "Get away",
+    "description": "Escape, go away, remove, take out."
+  },
+  {
+    "id": 123,
+    "name": "Get back",
+    "description": "Go back, go back/move back, go back"
+  },
+  {
+    "id": 124,
+    "name": "Get behind",
+    "description": "Being behind."
+  },
+  {
+    "id": 125,
+    "name": "Get by",
+    "description": "Mend / pass."
+  },
+  {
+    "id": 126,
+    "name": "Get down to",
+    "description": "Set to."
+  },
+  {
+    "id": 127,
+    "name": "Get down",
+    "description": "Depress, put down/down/aim, score/swallow."
+  },
+  {
+    "id": 128,
+    "name": "Get in",
+    "description": "Arrive/enter/climb/get picked,-to/poke/pick up."
+  },
+  {
+    "id": 129,
+    "name": "Get into",
+    "description": "Get to, enter / climb to."
+  },
+  {
+    "id": 130,
+    "name": "Get off with",
+    "description": "Flirt."
+  },
+  {
+    "id": 131,
+    "name": "Get off",
+    "description": "Get off / get off / get off / exit / start."
+  },
+  {
+    "id": 132,
+    "name": "Get on for",
+    "description": "To be almost."
+  },
+  {
+    "id": 133,
+    "name": "Get on to",
+    "description": "Contact, locate/start talking"
+  },
+  {
+    "id": 134,
+    "name": "Get on",
+    "description": "Climb on, hop on, ride on/progress, advance, go."
+  },
+  {
+    "id": 135,
+    "name": "Get out of",
+    "description": "Get rid of/get out of the habit."
+  },
+  {
+    "id": 136,
+    "name": "Get out",
+    "description": "Remove/remove/exit/get off, get off of."
+  },
+  {
+    "id": 137,
+    "name": "Get over with",
+    "description": "Finish with."
+  },
+  {
+    "id": 138,
+    "name": "Get over",
+    "description": "Recover from/overcome."
+  },
+  {
+    "id": 139,
+    "name": "Get round to",
+    "description": "Find time to."
+  },
+  {
+    "id": 140,
+    "name": "Get round",
+    "description": "Save/avoid, circumvent/convince, persuade."
+  },
+  {
+    "id": 141,
+    "name": "Get through",
+    "description": "Arrive/get to talk."
+  },
+  {
+    "id": 142,
+    "name": "Getto",
+    "description": "Reach"
+  },
+  {
+    "id": 143,
+    "name": "Get together",
+    "description": "Get together, get together/gather, gather/assemble/gather."
+  },
+  {
+    "id": 144,
+    "name": "Get up to",
+    "description": "Make/get to"
+  },
+  {
+    "id": 145,
+    "name": "Get up",
+    "description": "Get up/ rise/ get up/ wake up/ disguise."
+  },
+  {
+    "id": 146,
+    "name": "Give away",
+    "description": "Distribute, distribute/regulate/deliver/snitch on, betray."
+  },
+  {
+    "id": 147,
+    "name": "Give back",
+    "description": "Return."
+  },
+  {
+    "id": 148,
+    "name": "Give in to",
+    "description": "Give in to."
+  },
+  {
+    "id": 149,
+    "name": "Give in",
+    "description": "Give up,-a, surrender/give in/surrender."
+  },
+  {
+    "id": 150,
+    "name": "Give off",
+    "description": "Dismiss, detach, emit."
+  },
+  {
+    "id": 151,
+    "name": "Give onto",
+    "description": "Give to."
+  },
+  {
+    "id": 152,
+    "name": "Give out",
+    "description": "Distribute, distribute/announce/run out, run out."
+  },
+  {
+    "id": 153,
+    "name": "Give over",
+    "description": "Give/dedicate, assign/give up."
+  },
+  {
+    "id": 154,
+    "name": "Give up on",
+    "description": "Abandon, give up."
+  },
+  {
+    "id": 155,
+    "name": "Give up",
+    "description": "Give up / give up, give up / give up, give up."
+  },
+  {
+    "id": 156,
+    "name": "Go about",
+    "description": "Undertake, do / continue."
+  },
+  {
+    "id": 157,
+    "name": "Go after",
+    "description": "Pursue, walk after."
+  },
+  {
+    "id": 158,
+    "name": "Go against",
+    "description": "Go against/be unfavorable to."
+  },
+  {
+    "id": 159,
+    "name": "Go ahead with",
+    "description": "Proceed."
+  },
+  {
+    "id": 160,
+    "name": "Go ahead",
+    "description": "Go ahead!"
+  },
+  {
+    "id": 161,
+    "name": "Go along with",
+    "description": "Agree with."
+  },
+  {
+    "id": 162,
+    "name": "Go along",
+    "description": "Go through/ progress, go/ go."
+  },
+  {
+    "id": 163,
+    "name": "Go around",
+    "description": "Enough, be enough, have/ run, circulate/ go, walk."
+  },
+  {
+    "id": 164,
+    "name": "Go away",
+    "description": "Leave."
+  },
+  {
+    "id": 165,
+    "name": "Go back on",
+    "description": "Break, fail."
+  },
+  {
+    "id": 166,
+    "name": "Go back",
+    "description": "Go back, go back/date from/ go back to."
+  },
+  {
+    "id": 167,
+    "name": "Go by",
+    "description": "Pass/stick to, follow/be led by/judge."
+  },
+  {
+    "id": 168,
+    "name": "Go down with",
+    "description": "Catch, catch."
+  },
+  {
+    "id": 169,
+    "name": "Go down",
+    "description": "Lower/ deflate/ set/ sink/ be welcomed."
+  },
+  {
+    "id": 170,
+    "name": "Go for",
+    "description": "Attack/fetch/like/go for."
+  },
+  {
+    "id": 171,
+    "name": "Go in for",
+    "description": "Participate in, take part in/present yourself to/engage in."
+  },
+  {
+    "id": 172,
+    "name": "Go in",
+    "description": "Enter."
+  },
+  {
+    "id": 173,
+    "name": "Go into",
+    "description": "Enter/investigate/bump into."
+  },
+  {
+    "id": 174,
+    "name": "Go off with",
+    "description": "Escape with."
+  },
+  {
+    "id": 175,
+    "name": "Go off",
+    "description": "Leave"
+  },
+  {
+    "id": 176,
+    "name": "Go on",
+    "description": "Follow, continue/pass, occur."
+  },
+  {
+    "id": 177,
+    "name": "Go out",
+    "description": "Exit / shutdown."
+  },
+  {
+    "id": 178,
+    "name": "Go over to",
+    "description": "Switch to/ switch to, switch to."
+  },
+  {
+    "id": 179,
+    "name": "Go over",
+    "description": "Review, review."
+  },
+  {
+    "id": 180,
+    "name": "Go round",
+    "description": "To go around, turn around/ pass by, visit,'s house."
+  },
+  {
+    "id": 181,
+    "name": "Go through with",
+    "description": "Carry out."
+  },
+  {
+    "id": 182,
+    "name": "Go through",
+    "description": "Pass through, undergo, endure/examine."
+  },
+  {
+    "id": 183,
+    "name": "Go towards",
+    "description": "Allocate to, reserve for."
+  },
+  {
+    "id": 184,
+    "name": "Go under",
+    "description": "Sink/fail."
+  },
+  {
+    "id": 185,
+    "name": "Go up",
+    "description": "Rise/approach/rise/burst."
+  },
+  {
+    "id": 186,
+    "name": "Go with",
+    "description": "Accompany/ go with, be included/ match with."
+  },
+  {
+    "id": 187,
+    "name": "Go without",
+    "description": "Do without, do without."
+  },
+  {
+    "id": 188,
+    "name": "Grow apart",
+    "description": "Stand Away."
+  },
+  {
+    "id": 189,
+    "name": "Grow away from",
+    "description": "Go without contact with"
+  },
+  {
+    "id": 190,
+    "name": "Grow into",
+    "description": "To become, to become."
+  },
+  {
+    "id": 191,
+    "name": "Grow on",
+    "description": "Get to like it."
+  },
+  {
+    "id": 192,
+    "name": "Grow out of",
+    "description": "Losing, taking away/ being small,-a a."
+  },
+  {
+    "id": 193,
+    "name": "Grow up",
+    "description": "Growing up/ growing up/ growing up/ developing."
+  },
+  {
+    "id": 194,
+    "name": "Hand around",
+    "description": "Deal, offer, pass."
+  },
+  {
+    "id": 195,
+    "name": "Hand back",
+    "description": "Return."
+  },
+  {
+    "id": 196,
+    "name": "Hand down",
+    "description": "Pass on/pass/inherit."
+  },
+  {
+    "id": 197,
+    "name": "Hand in",
+    "description": "Deliver/present, notify."
+  },
+  {
+    "id": 198,
+    "name": "Hand on",
+    "description": "Pass down, inherit: (give) pass on, give."
+  },
+  {
+    "id": 199,
+    "name": "Hand out",
+    "description": "Distribute, distribute/ give/ apply."
+  },
+  {
+    "id": 200,
+    "name": "Hand over",
+    "description": "Hand over/ Assign."
+  },
+  {
+    "id": 201,
+    "name": "Hang about / hang around",
+    "description": "Wait/ fool around/ hang out."
+  },
+  {
+    "id": 202,
+    "name": "Hang back",
+    "description": "Drop back/hesitate."
+  },
+  {
+    "id": 203,
+    "name": "Hang down",
+    "description": "Dangle, Drop."
+  },
+  {
+    "id": 204,
+    "name": "Hang on",
+    "description": "Hold on/hold on."
+  },
+  {
+    "id": 205,
+    "name": "Hang out",
+    "description": "Tend/ tend to be."
+  },
+  {
+    "id": 206,
+    "name": "Hang up",
+    "description": "Hang up."
+  },
+  {
+    "id": 207,
+    "name": "Have on",
+    "description": "To wear,-to/ tease."
+  },
+  {
+    "id": 208,
+    "name": "Have out",
+    "description": "To be removed/ operated on."
+  },
+  {
+    "id": 209,
+    "name": "Holdback",
+    "description": "Hold/Hide/Contain/Suppress."
+  },
+  {
+    "id": 210,
+    "name": "Hold down",
+    "description": "Hold - press."
+  },
+  {
+    "id": 211,
+    "name": "Hold forth",
+    "description": "Long talk (on/about)."
+  },
+  {
+    "id": 212,
+    "name": "Hold off",
+    "description": "Keep away,-a/hold back."
+  },
+  {
+    "id": 213,
+    "name": "Hold on",
+    "description": "Hold on tight, hold on/wait/don't hang."
+  },
+  {
+    "id": 214,
+    "name": "Hold on to",
+    "description": "Hold on, hold on to / save."
+  },
+  {
+    "id": 215,
+    "name": "Hold out",
+    "description": "Tender, offer/ last/ resist."
+  },
+  {
+    "id": 216,
+    "name": "Hold over",
+    "description": "Defer."
+  },
+  {
+    "id": 217,
+    "name": "Hold up",
+    "description": "Support - Support"
+  },
+  {
+    "id": 218,
+    "name": "Hold with",
+    "description": "Agree with."
+  },
+  {
+    "id": 219,
+    "name": "Iron out",
+    "description": "Smooth - Level"
+  },
+  {
+    "id": 220,
+    "name": "Jack in",
+    "description": "Leave - leave"
+  },
+  {
+    "id": 221,
+    "name": "Jack up",
+    "description": "Jack up/ raise."
+  },
+  {
+    "id": 222,
+    "name": "Jump at",
+    "description": "Accept without thinking."
+  },
+  {
+    "id": 223,
+    "name": "Keep at",
+    "description": "Persevere in something / not leave alone, crush."
+  },
+  {
+    "id": 224,
+    "name": "Keep away",
+    "description": "Keep at a distance"
+  },
+  {
+    "id": 225,
+    "name": "Keep back",
+    "description": "Hold, keep/do not reveal/ hinder, contain."
+  },
+  {
+    "id": 226,
+    "name": "Keep down",
+    "description": "Oppress, hold down/ hold down/ limit, control."
+  },
+  {
+    "id": 227,
+    "name": "Keep from",
+    "description": "Refrain from, beware of."
+  },
+  {
+    "id": 228,
+    "name": "Keep in",
+    "description": "Don't let out/ keep/ contain/ pay."
+  },
+  {
+    "id": 229,
+    "name": "Keep in with",
+    "description": "Maintain good relations with."
+  },
+  {
+    "id": 230,
+    "name": "Keep off",
+    "description": "Keep distance/don't touch, don't talk about."
+  },
+  {
+    "id": 231,
+    "name": "Keep on",
+    "description": "Follow, continue/don't quit."
+  },
+  {
+    "id": 232,
+    "name": "Keep on about",
+    "description": "Insist on, don't stop talking about."
+  },
+  {
+    "id": 233,
+    "name": "Keep out",
+    "description": "Don't let in, don't let in/ don't let in."
+  },
+  {
+    "id": 234,
+    "name": "Keep out of",
+    "description": "Do not enter / do not enter."
+  },
+  {
+    "id": 235,
+    "name": "Keep to",
+    "description": "Abide by, abide by/don't quit, don't quit."
+  },
+  {
+    "id": 236,
+    "name": "Keep together",
+    "description": "Stay together,-as, don't separate."
+  },
+  {
+    "id": 237,
+    "name": "Keep under",
+    "description": "Keep Low"
+  },
+  {
+    "id": 238,
+    "name": "Keep up",
+    "description": "Keep, follow/keep awake/keep up."
+  },
+  {
+    "id": 239,
+    "name": "Keep up with",
+    "description": "Follow/ keep up with/ keep in touch"
+  },
+  {
+    "id": 240,
+    "name": "Kick against something",
+    "description": "Protest against, react against."
+  },
+  {
+    "id": 241,
+    "name": "Kick around",
+    "description": "Walk around/ hang around."
+  },
+  {
+    "id": 242,
+    "name": "Kick in",
+    "description": "Break with kicks."
+  },
+  {
+    "id": 243,
+    "name": "Kickoff",
+    "description": "Serve, kick off/ start, start."
+  },
+  {
+    "id": 244,
+    "name": "Kick out",
+    "description": "Eject - Eject"
+  },
+  {
+    "id": 245,
+    "name": "Knock about",
+    "description": "Roll, traverse/ walk with/ hit, mistreat"
+  },
+  {
+    "id": 246,
+    "name": "Knock back",
+    "description": "Drink"
+  },
+  {
+    "id": 247,
+    "name": "Knockdown",
+    "description": "Tear down / run over / knock down / lower / award."
+  },
+  {
+    "id": 248,
+    "name": "Knock off",
+    "description": "Throw, drop/ swipe/ liquidate/ discount/ remove."
+  },
+  {
+    "id": 249,
+    "name": "Knock out",
+    "description": "Knock out/Knock Out"
+  },
+  {
+    "id": 250,
+    "name": "Knock over",
+    "description": "Dump, throw/run over."
+  },
+  {
+    "id": 251,
+    "name": "Knock together",
+    "description": "Rush, rush/bump."
+  },
+  {
+    "id": 252,
+    "name": "Knock up",
+    "description": "Call - Wake Up"
+  },
+  {
+    "id": 253,
+    "name": "Lay about",
+    "description": "Assault."
+  },
+  {
+    "id": 254,
+    "name": "Lay aside",
+    "description": "Put aside/ set aside."
+  },
+  {
+    "id": 255,
+    "name": "Lay before",
+    "description": "Present."
+  },
+  {
+    "id": 256,
+    "name": "Layby",
+    "description": "Save - set aside."
+  },
+  {
+    "id": 257,
+    "name": "Lay down",
+    "description": "Let, drop/ deliver/ impose, fix/ sit."
+  },
+  {
+    "id": 258,
+    "name": "Lay in",
+    "description": "Provide yourself with."
+  },
+  {
+    "id": 259,
+    "name": "Lay into",
+    "description": "Attack."
+  },
+  {
+    "id": 260,
+    "name": "Lay off",
+    "description": "Dismiss/ leave alone, stop bothering/ stop."
+  },
+  {
+    "id": 261,
+    "name": "Lay on",
+    "description": "Facilitate, supply/upload."
+  },
+  {
+    "id": 262,
+    "name": "Lay out",
+    "description": "Tender, extend/arrange, place/expose."
+  },
+  {
+    "id": 263,
+    "name": "Layover",
+    "description": "Make a stop."
+  },
+  {
+    "id": 264,
+    "name": "Lay up",
+    "description": "Store."
+  },
+  {
+    "id": 265,
+    "name": "Leave off",
+    "description": "Stop / stop, finish."
+  },
+  {
+    "id": 266,
+    "name": "Leave out",
+    "description": "Skip, exclude/ exclude."
+  },
+  {
+    "id": 267,
+    "name": "Let down",
+    "description": "Lower/ lengthen/ deflate/ miss, let down."
+  },
+  {
+    "id": 268,
+    "name": "Let in",
+    "description": "Let in."
+  },
+  {
+    "id": 269,
+    "name": "Let into",
+    "description": "Abandon"
+  },
+  {
+    "id": 270,
+    "name": "Let off",
+    "description": "Let Out - Let Out"
+  },
+  {
+    "id": 271,
+    "name": "Let on",
+    "description": "Say, discover/make see."
+  },
+  {
+    "id": 272,
+    "name": "Let out",
+    "description": "Let out/ drop (from, de)/ rent."
+  },
+  {
+    "id": 273,
+    "name": "Let through",
+    "description": "Let go."
+  },
+  {
+    "id": 274,
+    "name": "Let up on",
+    "description": "Leave alone."
+  },
+  {
+    "id": 275,
+    "name": "Let up",
+    "description": "Stop."
+  },
+  {
+    "id": 276,
+    "name": "Look after",
+    "description": "Take care of, attend to / take care (of)."
+  },
+  {
+    "id": 277,
+    "name": "Look ahead",
+    "description": "Look ahead."
+  },
+  {
+    "id": 278,
+    "name": "Look at",
+    "description": "Look, consider/look."
+  },
+  {
+    "id": 279,
+    "name": "Look back",
+    "description": "Look back."
+  },
+  {
+    "id": 280,
+    "name": "Look down on",
+    "description": "Despise."
+  },
+  {
+    "id": 281,
+    "name": "Look for",
+    "description": "Search."
+  },
+  {
+    "id": 282,
+    "name": "Look forward to",
+    "description": "Wait (eagerly)."
+  },
+  {
+    "id": 283,
+    "name": "Look in on",
+    "description": "Walk (for a moment) through."
+  },
+  {
+    "id": 284,
+    "name": "Look into",
+    "description": "Investigate."
+  },
+  {
+    "id": 285,
+    "name": "Look like",
+    "description": "Look like."
+  },
+  {
+    "id": 286,
+    "name": "Look on",
+    "description": "Considerer/observe."
+  },
+  {
+    "id": 287,
+    "name": "Look onto",
+    "description": "Give to."
+  },
+  {
+    "id": 288,
+    "name": "Look out",
+    "description": "Be careful"
+  },
+  {
+    "id": 289,
+    "name": "Look out for",
+    "description": "Wait, be aware, be careful"
+  },
+  {
+    "id": 290,
+    "name": "Look over",
+    "description": "Look over."
+  },
+  {
+    "id": 291,
+    "name": "Look round",
+    "description": "Turn head/ look/ look/ visit."
+  },
+  {
+    "id": 292,
+    "name": "Look through",
+    "description": "Review/ Browse."
+  },
+  {
+    "id": 293,
+    "name": "Look to",
+    "description": "Count on/focus on."
+  },
+  {
+    "id": 294,
+    "name": "Look up to",
+    "description": "Respect."
+  },
+  {
+    "id": 295,
+    "name": "Look up",
+    "description": "Improve / consult, search / go see."
+  },
+  {
+    "id": 296,
+    "name": "Make after",
+    "description": "Follow, chase."
+  },
+  {
+    "id": 297,
+    "name": "Make for",
+    "description": "Head towards/pounce on/create, lead to."
+  },
+  {
+    "id": 298,
+    "name": "Make into",
+    "description": "Convert to, transform to."
+  },
+  {
+    "id": 299,
+    "name": "Make of",
+    "description": "Think, think, seem/understand/give importance to."
+  },
+  {
+    "id": 300,
+    "name": "Make off with / make away with",
+    "description": "Take away, get away with."
+  },
+  {
+    "id": 301,
+    "name": "Make off",
+    "description": "Escape, get away, run away."
+  },
+  {
+    "id": 302,
+    "name": "Make out",
+    "description": "Make/ extend, make/understand/ pretend."
+  },
+  {
+    "id": 303,
+    "name": "Make over",
+    "description": "Give over, transfer, convey/convert, transform."
+  },
+  {
+    "id": 304,
+    "name": "Make up",
+    "description": "Invent/make/ assemble/make, make/ make up."
+  },
+  {
+    "id": 305,
+    "name": "Make up for",
+    "description": "Offset."
+  },
+  {
+    "id": 306,
+    "name": "Make up to",
+    "description": "Flatter/ingratiate/reward, pay."
+  },
+  {
+    "id": 307,
+    "name": "Make with",
+    "description": "Give, bring."
+  },
+  {
+    "id": 308,
+    "name": "Mark down",
+    "description": "Reduce the price of / lower the grade of / aim."
+  },
+  {
+    "id": 309,
+    "name": "Mark off",
+    "description": "Separate, divide, distinguish/ delimiter/ tachar."
+  },
+  {
+    "id": 310,
+    "name": "Mark out",
+    "description": "Mark, delimiter/ mark, trace/ mark, select."
+  },
+  {
+    "id": 311,
+    "name": "Mark up",
+    "description": "Raise (the price of), raise (the price of)/ raise the grade of."
+  },
+  {
+    "id": 312,
+    "name": "Mix up",
+    "description": "Mix well/ prepare/ mess up, mix."
+  },
+  {
+    "id": 313,
+    "name": "Nod off",
+    "description": "Fall asleep, nod off."
+  },
+  {
+    "id": 314,
+    "name": "Bread out",
+    "description": "Exit, result."
+  },
+  {
+    "id": 315,
+    "name": "Pass away",
+    "description": "Pass on."
+  },
+  {
+    "id": 316,
+    "name": "Pass by",
+    "description": "Pass/pass by."
+  },
+  {
+    "id": 317,
+    "name": "Pass down",
+    "description": "Pass/transmit."
+  },
+  {
+    "id": 318,
+    "name": "Pass for",
+    "description": "Go through."
+  },
+  {
+    "id": 319,
+    "name": "Pass off",
+    "description": "Pass, elapse/ stop/ pass/ make pass."
+  },
+  {
+    "id": 320,
+    "name": "Pass on",
+    "description": "Pass, give/ infect/ pass away."
+  },
+  {
+    "id": 321,
+    "name": "Pass out",
+    "description": "Pass out, pass out/ graduate/ hand out."
+  },
+  {
+    "id": 322,
+    "name": "Pass over",
+    "description": "Ignore, ignore, forget/pass through, cross over."
+  },
+  {
+    "id": 323,
+    "name": "Pass through",
+    "description": "Be on the way/ go through, go through."
+  },
+  {
+    "id": 324,
+    "name": "Pass up",
+    "description": "Let go, let go, waste/reject."
+  },
+  {
+    "id": 325,
+    "name": "Pick at",
+    "description": "Touch/eat without desire."
+  },
+  {
+    "id": 326,
+    "name": "Pick off",
+    "description": "Kill one on one."
+  },
+  {
+    "id": 327,
+    "name": "Pick on",
+    "description": "Mess with/choose, choose."
+  },
+  {
+    "id": 328,
+    "name": "Pick out",
+    "description": "Choose, choose/ distinguish/ recognize/ play by ear."
+  },
+  {
+    "id": 329,
+    "name": "Pick up",
+    "description": "Pick up/ pick up/ pick up."
+  },
+  {
+    "id": 330,
+    "name": "Pick up on",
+    "description": "Make a review of/return to/point."
+  },
+  {
+    "id": 331,
+    "name": "Pitch (up) on",
+    "description": "Choose, choose / find, find."
+  },
+  {
+    "id": 332,
+    "name": "Pitch forward",
+    "description": "Fall on your face, fall on your head."
+  },
+  {
+    "id": 333,
+    "name": "Pitchin",
+    "description": "Start/start eating/cooperate/contribute."
+  },
+  {
+    "id": 334,
+    "name": "Pitch into",
+    "description": "To vigorously undertake something/attack, to lash out at."
+  },
+  {
+    "id": 335,
+    "name": "Pitch off",
+    "description": "Get off, shake/drop."
+  },
+  {
+    "id": 336,
+    "name": "Pitchout",
+    "description": "Throw / kick out, expel, put on the street."
+  },
+  {
+    "id": 337,
+    "name": "Pitch over",
+    "description": "Throw/ tip over."
+  },
+  {
+    "id": 338,
+    "name": "Pull about",
+    "description": "To handle, to spoil."
+  },
+  {
+    "id": 339,
+    "name": "Pull along",
+    "description": "Drag/drag."
+  },
+  {
+    "id": 340,
+    "name": "Pull apart",
+    "description": "Break, split in two/ disassemble/ harshly criticize."
+  },
+  {
+    "id": 341,
+    "name": "Pull away",
+    "description": "Pluck/remove plucking/jump away from one."
+  },
+  {
+    "id": 342,
+    "name": "Pull back",
+    "description": "Withdraw/retain, pull back/pull towards self."
+  },
+  {
+    "id": 343,
+    "name": "Pull down",
+    "description": "Lower, pull down, bring down, bring down, bring down."
+  },
+  {
+    "id": 344,
+    "name": "Pull in",
+    "description": "Pull towards yourself/ pick up/ collect."
+  },
+  {
+    "id": 345,
+    "name": "Pull off",
+    "description": "Tear off, detach/flip off/quickly remove."
+  },
+  {
+    "id": 346,
+    "name": "Pull on",
+    "description": "Put on (hurry)/ pull on."
+  },
+  {
+    "id": 347,
+    "name": "Pull out",
+    "description": "Pull out, extract/pull out."
+  },
+  {
+    "id": 348,
+    "name": "Pull over",
+    "description": "Pull in/ knock down, dump/ step aside."
+  },
+  {
+    "id": 349,
+    "name": "Pull round",
+    "description": "Help one recover/recover."
+  },
+  {
+    "id": 350,
+    "name": "Pull through",
+    "description": "To get one out of a predicament or illness/recover, regain health."
+  },
+  {
+    "id": 351,
+    "name": "Pull up",
+    "description": "Raise, raise, pull up/raise."
+  },
+  {
+    "id": 352,
+    "name": "Put across",
+    "description": "Communicate/ make understand/ make accept."
+  },
+  {
+    "id": 353,
+    "name": "Put apart",
+    "description": "Separate someone from other people."
+  },
+  {
+    "id": 354,
+    "name": "Put aside",
+    "description": "Reject, discard, leave, put aside."
+  },
+  {
+    "id": 355,
+    "name": "Put back",
+    "descriptionion": "Return to place/ restore, put back/ save."
+  },
+  {
+    "id": 356,
+    "name": "Put by",
+    "description": "Save, have money saved= (to) put away."
+  },
+  {
+    "id": 357,
+    "name": "Put down",
+    "description": "Put on the ground/ put on the ground/ deposit/ lower/ drop."
+  },
+  {
+    "id": 358,
+    "name": "Put next",
+    "description": "Extend/ extend/ extend/ cast/ employ, unfold."
+  },
+  {
+    "id": 359,
+    "name": "Put forward",
+    "description": "Name, present, propose/do."
+  },
+  {
+    "id": 360,
+    "name": "Put in",
+    "description": "Poke in, introduce/ insert/ interject/ present, adduce."
+  },
+  {
+    "id": 361,
+    "name": "Put off",
+    "description": "Snooze"
+  },
+  {
+    "id": 362,
+    "name": "Put on",
+    "description": "Gain weight"
+  },
+  {
+    "id": 363,
+    "name": "Put one over on",
+    "description": "Winning someone, outsmarting someone."
+  },
+  {
+    "id": 364,
+    "name": "Put out",
+    "description": "Remove, put out, send for a walk, throw out, expel."
+  },
+  {
+    "id": 365,
+    "name": "Put through",
+    "description": "Close/dispatch/get approved/test one."
+  },
+  {
+    "id": 366,
+    "name": "Put together",
+    "description": "Put together, put together, bring together."
+  },
+  {
+    "id": 367,
+    "name": "Put up",
+    "description": "Raise, raise, raise, raise, open, raise."
+  },
+  {
+    "id": 368,
+    "name": "Put up with",
+    "description": "Hold on, resign yourself to, settle for."
+  },
+  {
+    "id": 369,
+    "name": "Put upon",
+    "description": "Annoy, bother, ask too much of, abuse the kindness of."
+  },
+  {
+    "id": 370,
+    "name": "Ride about, (to) ride around",
+    "description": "Ride on horseback, in a car, by bike."
+  },
+  {
+    "id": 371,
+    "name": "Ride away",
+    "description": "Move away, go away, leave."
+  },
+  {
+    "id": 372,
+    "name": "Ride back",
+    "description": "Back on a horse, bike, etc."
+  },
+  {
+    "id": 373,
+    "name": "Ride on",
+    "description": "Depend on."
+  },
+  {
+    "id": 374,
+    "name": "Ride out",
+    "description": "Hold until the end of."
+  },
+  {
+    "id": 375,
+    "name": "Rip off",
+    "description": "Start / scam."
+  },
+  {
+    "id": 376,
+    "name": "Rip up",
+    "description": "Break apart."
+  },
+  {
+    "id": 377,
+    "name": "Round down",
+    "description": "Round (down)."
+  },
+  {
+    "id": 378,
+    "name": "Roundoff",
+    "description": "Complete, finish."
+  },
+  {
+    "id": 379,
+    "name": "Round on",
+    "description": "Turn against."
+  },
+  {
+    "id": 380,
+    "name": "Roundup",
+    "description": "Round up (up)/ round up/ round up, round up."
+  },
+  {
+    "id": 381,
+    "name": "Run across",
+    "description": "Run across/find, bump into."
+  },
+  {
+    "id": 382,
+    "name": "Run after",
+    "description": "Chase."
+  },
+  {
+    "id": 383,
+    "name": "Run along",
+    "description": "Leave."
+  },
+  {
+    "id": 384,
+    "name": "Run away",
+    "description": "Run away, escape."
+  },
+  {
+    "id": 385,
+    "name": "Run away with",
+    "description": "Run away with/ don't believe that/ you get carried away by."
+  },
+  {
+    "id": 386,
+    "name": "Run down",
+    "description": "Run over/ criticize/ exhaust/ run down/ exhaust/ stop."
+  },
+  {
+    "id": 387,
+    "name": "Run in",
+    "description": "Roll/stop/run in."
+  },
+  {
+    "id": 388,
+    "name": "Run into",
+    "description": "Run into/bump into/bump into."
+  },
+  {
+    "id": 389,
+    "name": "Run off",
+    "description": "Print/run away."
+  },
+  {
+    "id": 390,
+    "name": "Run off with",
+    "description": "Run away with, take away."
+  },
+  {
+    "id": 391,
+    "name": "Run out of",
+    "description": "Running out of (gas, water, salt)"
+  },
+  {
+    "id": 392,
+    "name": "Set about",
+    "description": "Start to, start to/attack, attack."
+  },
+  {
+    "id": 393,
+    "name": "Set against",
+    "description": "To make enemies with, to oppose/oppose, to balance."
+  },
+  {
+    "id": 394,
+    "name": "Set apart",
+    "description": "Distinguish, make different."
+  },
+  {
+    "id": 395,
+    "name": "Set aside",
+    "description": "Save, save/ leave/ reserve/ set aside/ void."
+  },
+  {
+    "id": 396,
+    "name": "Set back",
+    "description": "Put away, withdraw/delay, delay/cost."
+  },
+  {
+    "id": 397,
+    "name": "Set down",
+    "description": "To put in writing, to write/let/establish, to fix."
+  },
+  {
+    "id": 398,
+    "name": "Set forth",
+    "description": "Make march, leave."
+  },
+  {
+    "id": 399,
+    "name": "Set in",
+    "description": "Begin, begin/arise/declare."
+  },
+  {
+    "id": 400,
+    "name": "Set off",
+    "description": "Depart, set off/ set off, set off/ set off."
+  },
+  {
+    "id": 401,
+    "name": "Set on",
+    "description": "To throw / attack, to attack."
+  },
+  {
+    "id": 402,
+    "name": "Set out",
+    "description": "Depart, go out / propose, have the intention of, want."
+  },
+  {
+    "id": 403,
+    "name": "Setto",
+    "description": "Get to, start to."
+  },
+  {
+    "id": 404,
+    "name": "Set up",
+    "description": "Raise, erect/ place/ mount/ mount, assemble."
+  },
+  {
+    "id": 405,
+    "name": "Show off",
+    "description": "Bragging, showing off, showing off, showing off/ being funny"
+  },
+  {
+    "id": 406,
+    "name": "Show up",
+    "description": "Bring out, make stand out/reveal, bring to light."
+  },
+  {
+    "id": 407,
+    "name": "Slip away",
+    "description": "Pass, go/go."
+  },
+  {
+    "id": 408,
+    "name": "Slip by",
+    "description": "Pass, elapse."
+  },
+  {
+    "id": 409,
+    "name": "Slip into",
+    "description": "Put on."
+  },
+  {
+    "id": 410,
+    "name": "Slip off",
+    "description": "Remove."
+  },
+  {
+    "id": 411,
+    "name": "Slip on",
+    "description": "Put on."
+  },
+  {
+    "id": 412,
+    "name": "Slip out",
+    "description": "Escape."
+  },
+  {
+    "id": 413,
+    "name": "Slip out of",
+    "description": "Remove."
+  },
+  {
+    "id": 414,
+    "name": "Slip up",
+    "description": "To err, to make a mistake/make a slip, to screw up."
+  },
+  {
+    "id": 415,
+    "name": "Stand aside",
+    "description": "Step back, get out of the way/ take no part, stay out of the way."
+  },
+  {
+    "id": 416,
+    "name": "Stand back",
+    "description": "Step back, move back, move away."
+  },
+  {
+    "id": 417,
+    "name": "Standby",
+    "description": "Stand by, stand by / be prepared."
+  },
+  {
+    "id": 418,
+    "name": "Stand down",
+    "description": "Withdraw / resign / retire, leave the dais."
+  },
+  {
+    "id": 419,
+    "name": "Stand for",
+    "description": "Signify, want to say/ represent/ defend, support."
+  },
+  {
+    "id": 420,
+    "name": "Stand in for",
+    "description": "Substitute, replace."
+  },
+  {
+    "id": 421,
+    "name": "Stand out",
+    "description": "To stand out, stand out/ stand out, stand out/ oppose ((against, a))."
+  },
+  {
+    "id": 422,
+    "name": "Stand over",
+    "description": "Watch over, watch over."
+  },
+  {
+    "id": 423,
+    "name": "Stand to",
+    "description": "Be on alert / put on alert."
+  },
+  {
+    "id": 424,
+    "name": "Stand up",
+    "description": "Stand up, get up/ stand up."
+  },
+  {
+    "id": 425,
+    "name": "Stand up for",
+    "description": "Defend/support."
+  },
+  {
+    "id": 426,
+    "name": "Stand up to",
+    "description": "Cope with, resist."
+  },
+  {
+    "id": 427,
+    "name": "Take after",
+    "description": "Look like."
+  },
+  {
+    "id": 428,
+    "name": "Take apart",
+    "description": "Dismount, undo/destroy."
+  },
+  {
+    "id": 429,
+    "name": "Take aside",
+    "description": "Carry to the side."
+  },
+  {
+    "id": 430,
+    "name": "Take away",
+    "description": "Take away, remove/ subtract/ carry away."
+  },
+  {
+    "id": 431,
+    "name": "Take back",
+    "description": "Receive again, accept something returned / readmit."
+  },
+  {
+    "id": 432,
+    "name": "Take down",
+    "description": "Remove, drop/ dismount/ aim/ humiliate."
+  },
+  {
+    "id": 433,
+    "name": "Take for",
+    "description": "Take by."
+  },
+  {
+    "id": 434,
+    "name": "Take in",
+    "description": "Give shelter to, house, collect/ deceive/ assimilate."
+  },
+  {
+    "id": 435,
+    "name": "Take off",
+    "description": "Take off/ remove, take out/ take/ take/ imitate."
+  },
+  {
+    "id": 436,
+    "name": "Take on",
+    "description": "Take charge of, take care of, accept/assume."
+  },
+  {
+    "id": 437,
+    "name": "Take out",
+    "description": "Take out, take away / ask out / take for a walk."
+  },
+  {
+    "id": 438,
+    "name": "Take out on",
+    "description": "Take it out on, take it out on, take it out on."
+  },
+  {
+    "id": 439,
+    "name": "Take over",
+    "description": "Take (possession of), seize/ occupy."
+  },
+  {
+    "id": 440,
+    "name": "Take over from",
+    "description": "Release, replace."
+  },
+  {
+    "id": 441,
+    "name": "Take to",
+    "description": "To become fond of/indulge in/begin to, become fond of."
+  },
+  {
+    "id": 442,
+    "name": "Take up on",
+    "description": "Make remarks about/accept (an offer)."
+  },
+  {
+    "id": 443,
+    "name": "Take up with",
+    "description": "Start dating, get into relationships with/talk about."
+  },
+  {
+    "id": 444,
+    "name": "Take up",
+    "description": "Occupy/carry, raise/remove, raise."
+  },
+  {
+    "id": 445,
+    "name": "Take upon",
+    "description": "Take care of."
+  },
+  {
+    "id": 446,
+    "name": "Tell against",
+    "description": "Work against."
+  },
+  {
+    "id": 447,
+    "name": "Tell apart",
+    "description": "Distinguish."
+  },
+  {
+    "id": 448,
+    "name": "Tell off",
+    "description": "Scold, scold/ point out."
+  },
+  {
+    "id": 449,
+    "name": "Tell on",
+    "description": "Talk on."
+  },
+  {
+    "id": 450,
+    "name": "Throw away",
+    "description": "Throw/ waste, lose/ waste, squander/ throw into the air."
+  },
+  {
+    "id": 451,
+    "name": "Throw back",
+    "description": "Return / back."
+  },
+  {
+    "id": 452,
+    "name": "Throw back on",
+    "description": "Force to resort to."
+  },
+  {
+    "id": 453,
+    "name": "Throw in",
+    "description": "Include for free/ get out of raid."
+  },
+  {
+    "id": 454,
+    "name": "Throw off",
+    "description": "Get rid of, get rid of/ mislead/ get rid of."
+  },
+  {
+    "id": 455,
+    "name": "Throw on",
+    "description": "Put on."
+  },
+  {
+    "id": 456,
+    "name": "Throw out",
+    "description": "Eject, expel/ reject/ throw away, throw away."
+  },
+  {
+    "id": 457,
+    "name": "Throw up",
+    "description": "Puke, give back/give up, give up."
+  },
+  {
+    "id": 458,
+    "name": "Tick away",
+    "description": "Elapse."
+  },
+  {
+    "id": 459,
+    "name": "Tick off",
+    "description": "Mark, point out/ scold, scold/ annoy, make angry."
+  },
+  {
+    "id": 460,
+    "name": "Tick over",
+    "description": "Idling, running/getting along."
+  },
+  {
+    "id": 461,
+    "name": "Try for",
+    "description": "Try to get."
+  },
+  {
+    "id": 462,
+    "name": "Try on",
+    "description": "Try on."
+  },
+  {
+    "id": 463,
+    "name": "Try out",
+    "description": "Test, rehearse."
+  },
+  {
+    "id": 464,
+    "name": "Turn against",
+    "description": "Put against/ set against."
+  },
+  {
+    "id": 465,
+    "name": "Turn around / turn round",
+    "description": "Turn around, turn around/ turn around, turn around."
+  },
+  {
+    "id": 466,
+    "name": "Turn away",
+    "description": "Don't let in/ turn your head, turn your back."
+  },
+  {
+    "id": 467,
+    "name": "Turn back",
+    "description": "Push back, pull back/ delay/ turn back."
+  },
+  {
+    "id": 468,
+    "name": "Turn down",
+    "description": "Reject, decline/deny/downgrade/double."
+  },
+  {
+    "id": 469,
+    "name": "Turn in",
+    "description": "Hand over to the police/lay down."
+  },
+  {
+    "id": 470,
+    "name": "Turn off",
+    "description": "Disconnect/ turn off/ close/ disgust, disgust."
+  },
+  {
+    "id": 471,
+    "name": "Turn on",
+    "description": "Connect/ power on/ open/ start up, power on."
+  },
+  {
+    "id": 472,
+    "name": "Turn out",
+    "description": "Turn off, go outside"
+  },
+  {
+    "id": 473,
+    "name": "Turn over",
+    "description": "To turn around, turn around, turn upside down."
+  },
+  {
+    "id": 474,
+    "name": "Turn to",
+    "description": "Go to, go to, go to, go to, go to."
+  },
+  {
+    "id": 475,
+    "name": "Turn up",
+    "description": "Arrive, show up/ appear/ fold up, pick up."
+  },
+  {
+    "id": 476,
+    "name": "Wade through",
+    "description": "Spending a lot of time doing something boring"
+  },
+  {
+    "id": 477,
+    "name": "Wait about, (to) wait around",
+    "description": "Wait, wasting time."
+  },
+  {
+    "id": 478,
+    "name": "Wait behind",
+    "description": "Stay, stay to wait for one."
+  },
+  {
+    "id": 479,
+    "name": "Wait on",
+    "description": "Attend"
+  },
+  {
+    "id": 480,
+    "name": "Wait up for",
+    "description": "Staying up for something"
+  },
+  {
+    "id": 481,
+    "name": "Wake up",
+    "description": "Wake up"
+  },
+  {
+    "id": 482,
+    "name": "Walk about",
+    "description": "Walk"
+  },
+  {
+    "id": 483,
+    "name": "Walk around",
+    "description": "To take a walk, to walk around."
+  },
+  {
+    "id": 484,
+    "name": "Walk away",
+    "description": "Go away, get away, refuse to, evade from."
+  },
+  {
+    "id": 485,
+    "name": "Walk away with",
+    "description": "Take,Steal"
+  },
+  {
+    "id": 486,
+    "name": "Walk back",
+    "description": "Walk back, walk back."
+  },
+  {
+    "id": 487,
+    "name": "Walk down",
+    "description": "Go down on foot."
+  },
+  {
+    "id": 488,
+    "name": "Walk into",
+    "description": "Enter / fall into a trap / be tricked."
+  },
+  {
+    "id": 489,
+    "name": "Walk off",
+    "description": "Take a pain out of your chest by taking a walk."
+  },
+  {
+    "id": 490,
+    "name": "Walk out",
+    "description": "Quit, retire/ go on strike/ leave."
+  },
+  {
+    "id": 491,
+    "name": "Walk over",
+    "description": "Run over, kick someone/win."
+  },
+  {
+    "id": 492,
+    "name": "Walk through",
+    "description": "Trying for the first time."
+  },
+  {
+    "id": 493,
+    "name": "Warm up",
+    "description": "Heat"
+  },
+  {
+    "id": 494,
+    "name": "Warn off",
+    "description": "Warn"
+  },
+  {
+    "id": 495,
+    "name": "Wash off / wash out",
+    "description": "Remove a stain by washing"
+  },
+  { "id": 496, "name": "Wash up", "description": "Wash the dishes" },
+  {
+    "id": 497,
+    "name": "Water down",
+    "description": "Dilute"
+  },
+  {
+    "id": 498,
+    "name": "Wear away / wear down",
+    "description": "Wear"
+  },
+  {
+    "id": 499,
+    "name": "Wear off",
+    "description": "Decrease,disappear"
+  },
+  {
+    "id": 500,
+    "name": "Wear on",
+    "description": "Pass slowly"
+  }
+]

@@ -1,4 +1,3 @@
-import React from 'react'
 import verbs from '../data/data.json'
 import { Quiz, Verb } from '../types'
 
