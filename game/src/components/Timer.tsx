@@ -17,6 +17,7 @@ export default function Timer({
         to={isFinite(points) ? points : 0}
         duration={1}
         variant="h5"
+        color="primary"
       />
     );
   }

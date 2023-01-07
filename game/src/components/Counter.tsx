@@ -34,5 +34,5 @@ export default function Counter({
   }, [from, to]);
 
   // @ts-ignore
-  return <Typography variant={variant} ref={nodeRef} component={"span"} color={color} />;
+  return <Typography variant={variant} ref={nodeRef} component={"span"} color={color} sx={{fontWeight: "bold"}} />;
 }

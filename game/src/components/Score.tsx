@@ -12,7 +12,7 @@ export default function Score({
   return (
     <Grid item xs={6}>
       <Box display="flex" justifyContent="flex-end">
-        <Counter from={scoreFrom} to={score} duration={2} variant="h6" />
+        <Counter from={scoreFrom} to={score} duration={2} variant="h6" color="primary" />
       </Box>
     </Grid>
   );

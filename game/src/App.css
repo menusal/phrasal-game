@@ -41,5 +41,13 @@
 }
 
 .flag {
-  margin-right: .5em;
+  margin-left: .5em;
+  border-radius: 50%;
+  width: 1.4em!important;
+  height: 1.4em!important;
+  border: 2px solid #111;
+}
+
+.MuiButtonBase-root:focus {
+  outline: none;
 }

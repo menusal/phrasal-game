@@ -6,34 +6,32 @@ import LanguageSelect from "./LanguageSelect";
 import ModeToggle from "./ModeToggle";
 
 export default function Header({
+  top,
   score,
   scoreFrom,
-  time,
-  timeFrom,
-  isRunning,
   lifes,
+  isNewGame,
 }: {
-  score: number;
-  scoreFrom: number;
-  time: number;
-  timeFrom: number;
-  isRunning: boolean;
-  lifes: number;
+  top: boolean;
+  isNewGame: boolean;
+  score?: number;
+  scoreFrom?: number;
+  lifes?: number;
 }) {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" color="primary">
+      <AppBar position="fixed" color="default" sx={{ opacity: top ? 1 : 0}}>
         <Toolbar>
           <Grid container>
-            <Lifes lifes={lifes} />
-            <Score score={score} scoreFrom={scoreFrom} />
+            <Lifes lifes={lifes || 0} />
+            <Score score={score || 0} scoreFrom={scoreFrom || 0} />
           </Grid>
         </Toolbar>
       </AppBar>
-      <AppBar position="fixed" color="secondary" sx={{ top: "auto", bottom: 0 }}>
+      <AppBar position="fixed" color="secondary" sx={{ top: "auto", bottom: 0 }} >
         <Toolbar>
           <Grid container>
-            <LanguageSelect />
+            <LanguageSelect isNewGame={isNewGame}/>
             <ModeToggle />
           </Grid>
         </Toolbar>
