@@ -1,6 +1,7 @@
 import DefaultView from './views/DefaultView'
 import { lazy } from 'react'
 import { Navigate } from 'react-router-dom'
+import Scores from './views/Scores'
 
 const Game = lazy(
   () => import(/* webpackPrefetch: true */ './views/Game'),
@@ -9,7 +10,7 @@ const Game = lazy(
 export const ROUTE_PATHS = {
   DEFAULT: '/',
   GAME: '/game',
-  SCORE: 'score',
+  SCORES: '/scores',
 }
 
 const routes = [
@@ -23,6 +24,12 @@ const routes = [
     path: ROUTE_PATHS.GAME,
     element: (
         <Game />
+    ),
+  },
+  {
+    path: ROUTE_PATHS.SCORES,
+    element: (
+        <Scores />
     ),
   },
 ]

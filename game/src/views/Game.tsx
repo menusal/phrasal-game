@@ -21,6 +21,9 @@ import StartModal from "../components/StartModal";
 import Header from "../components/Header";
 import Timer from "../components/Timer";
 import { useTranslation } from "react-i18next";
+import useScoreHystoryFromLocalStorage from "../hooks/useScoreHystoryFromLocalStorage";
+import { Link } from "react-router-dom";
+import { ROUTE_PATHS } from "../routes";
 
 export const ColorModeContext = createContext({ toggleColorMode: () => {} });
 
@@ -38,13 +41,13 @@ export default function Game() {
 
   const { getQuiz } = useQuestion();
 
+  const { addScore } = useScoreHystoryFromLocalStorage();
+
   const { time, timeFrom, isRunning, start, stop, reset } = useTimer();
 
   const { lifes, removeLife, resetLifes } = useLifes();
 
   const { score, addPoint, resetScore, scoreFrom } = useScore();
-
-  const [mode, setMode] = useState<"light" | "dark">("light");
 
   const isNewGame = useMemo(() => {
     return lifes === 3 && !startGame;
@@ -54,7 +57,10 @@ export default function Game() {
     resetLifes();
     reset();
     stop();
-    score > 0 && setOpen(true);
+    if (score > 0) {
+      setOpen(true);
+      score > 0 && addScore(score);
+    }
     setStartGame(false);
   };
 
@@ -232,6 +238,22 @@ export default function Game() {
                 {startGame ? t("Next") : t("Start")}
               </Button>
             </Box>
+            {!isRunning && (
+              <Grow in={true}>
+                <Box marginBottom={3} marginTop={6}>
+                  <Link to={ROUTE_PATHS.SCORES}>
+                    <Button
+                      variant="text"
+                      color="secondary"
+                      size="large"
+                      // sx={{ color: "white", fontWeight: "bold" }}
+                    >
+                      {t("Show scores")}
+                    </Button>
+                  </Link>
+                </Box>
+              </Grow>
+            )}
           </Grid>
         </Grid>
       </Container>

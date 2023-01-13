@@ -5,7 +5,11 @@ import {
   DialogContent,
   DialogContentText,
   DialogActions,
+  Box,
 } from "@mui/material";
+import { t } from "i18next";
+import { Link } from "react-router-dom";
+import { ROUTE_PATHS } from "../routes";
 import Counter from "./Counter";
 
 export default function StartModal({
@@ -39,6 +43,18 @@ export default function StartModal({
               variant="h3"
               color="primary"
             />
+             <Box marginBottom={3}>
+              <Link to={ROUTE_PATHS.SCORES}>
+                <Button
+                  variant="text"
+                  color="secondary"
+                  size="large"
+                  // sx={{ color: "white", fontWeight: "bold" }}
+                >
+                  {t("Show scores")}
+                </Button>
+              </Link>
+            </Box>
           </>
         </DialogContentText>
       </DialogContent>

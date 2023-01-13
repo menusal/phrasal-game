@@ -20,18 +20,24 @@ export default function Header({
 }) {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" color="default" sx={{ opacity: top ? 1 : 0}}>
+      {top && (
+        <AppBar position="fixed" color="default">
+          <Toolbar>
+            <Grid container>
+              <Lifes lifes={lifes || 0} />
+              <Score score={score || 0} scoreFrom={scoreFrom || 0} />
+            </Grid>
+          </Toolbar>
+        </AppBar>
+      )}
+      <AppBar
+        position="fixed"
+        color="secondary"
+        sx={{ top: "auto", bottom: 0 }}
+      >
         <Toolbar>
           <Grid container>
-            <Lifes lifes={lifes || 0} />
-            <Score score={score || 0} scoreFrom={scoreFrom || 0} />
-          </Grid>
-        </Toolbar>
-      </AppBar>
-      <AppBar position="fixed" color="secondary" sx={{ top: "auto", bottom: 0 }} >
-        <Toolbar>
-          <Grid container>
-            <LanguageSelect isNewGame={isNewGame}/>
+            <LanguageSelect isNewGame={isNewGame} />
             <ModeToggle />
           </Grid>
         </Toolbar>
