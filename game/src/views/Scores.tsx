@@ -5,6 +5,7 @@ import {
   Container,
   Divider,
   Grid,
+  Grow,
   Toolbar,
   Typography,
 } from "@mui/material";
@@ -68,15 +69,17 @@ export default function Scores() {
           </Grid>
         )}
         {scoreHistory.map((score, idx) => (
-          <Grid container spacing={2} marginTop={2} key={idx}>
-            <Grid item xs={12} sx={{ height: "50px" }}>
-              <Box
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "flex-end",
-                }}
-              >
+          <Grow in={true}>
+            <Grid
+              container
+              spacing={2}
+              marginTop={2}
+              key={idx}
+              sx={{
+                borderBottom: "1px solid #ccc",
+              }}
+            >
+              <Grid item xs={10}>
                 <Typography
                   variant="h5"
                   component="div"
@@ -85,21 +88,16 @@ export default function Scores() {
                 >
                   {formatDate(score.date)}
                 </Typography>
-              </Box>
-              <Box
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "flex-end",
-                }}
-              >
-                <Typography variant="h3" component="h2" gutterBottom>
-                  {score.score}
-                </Typography>
-              </Box>
-              <Divider />
+              </Grid>
+              <Grid item xs={2}>
+                <Box display="flex" justifyContent="flex-end">
+                  <Typography variant="h5" component="h3" gutterBottom fontWeight={600}>
+                    {score.score}
+                  </Typography>
+                </Box>
+              </Grid>
             </Grid>
-          </Grid>
+          </Grow>
         ))}
       </Grid>
     </Container>
@@ -108,8 +106,12 @@ export default function Scores() {
 
 // aux
 function formatDate(date: string) {
-  return new Intl.DateTimeFormat("default", {
-    dateStyle: "long",
-    timeStyle: "short",
+  return new Intl.DateTimeFormat("es-ES", {
+    calendar: "gregory",
+    numberingSystem: "latn",
+    day: "numeric",
+    month: "numeric",
+    year: "numeric",
+    timeZone: "Atlantic/Canary"
   }).format(new Date(date));
 }

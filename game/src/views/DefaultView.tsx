@@ -22,14 +22,14 @@ export default function DefaultView() {
   return (
     <Container maxWidth="sm">
       <Header isNewGame={true} top={false} />
-      <Grid container spacing={2} marginTop={8}>
+      <Grid container spacing={2} marginTop={1}>
         <Grid item xs={12}>
           <Grow in={true}>
-            <Box marginBottom={3} marginTop={3}>
+            <Box marginBottom={3}>
               <img
                 src={theme.palette.mode === "dark" ? darkLogo : lightLogo}
                 alt="phrasal verbs"
-                width="100%"
+                width="340"
               />
             </Box>
           </Grow>

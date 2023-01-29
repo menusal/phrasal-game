@@ -64,7 +64,7 @@ export default function Game() {
     setStartGame(false);
   };
 
-  const fetchQuiz = async () => {
+  const fetchQuiz = async () => {setQuiz(null);
     const quiz = await getQuiz();
 
     setQuiz(quiz);
@@ -109,17 +109,18 @@ export default function Game() {
   };
 
   const handleNext = () => {
+    setQuiz(null);
     setAnimate(false);
     setResponse("");
     setStartGame(true);
     setProgress(0);
     reset();
 
-    setTimeout(() => {
+    // setTimeout(() => {
       fetchQuiz();
       setAnimate(true);
       start();
-    }, 1500);
+    // }, 100);
   };
 
   const handleClose = () => {
@@ -238,22 +239,6 @@ export default function Game() {
                 {startGame ? t("Next") : t("Start")}
               </Button>
             </Box>
-            {!isRunning && (
-              <Grow in={true}>
-                <Box marginBottom={3} marginTop={6}>
-                  <Link to={ROUTE_PATHS.SCORES}>
-                    <Button
-                      variant="text"
-                      color="secondary"
-                      size="large"
-                      // sx={{ color: "white", fontWeight: "bold" }}
-                    >
-                      {t("Show scores")}
-                    </Button>
-                  </Link>
-                </Box>
-              </Grow>
-            )}
           </Grid>
         </Grid>
       </Container>
